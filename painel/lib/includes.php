@@ -3,7 +3,7 @@
 
     // include("connect_local.php");
 
-    include("/appinc/connect.php");
+    include("/credcarbonoinc/connect.php");
     $con = AppConnect('portal');
 
     // include("/appinc/connect.php");
