@@ -1,6 +1,6 @@
 <?php
 
-    include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
     if($_POST['acao'] == 'delete'){
         $query = "update paginas_topicos set topicos = JSON_REMOVE(topicos, '$.titulo[{$_POST['opc']}]'), topicos = JSON_REMOVE(topicos, '$.descricao[{$_POST['opc']}]') where codigo = '{$_POST['cod']}'";

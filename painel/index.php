@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
     if($_GET['s']){
         $_SESSION = [];
@@ -25,15 +25,15 @@
     include("lib/header.php");
     ?>
   </head>
-  <style> 
+  <style>
 body {
 
     background:#16999a;
-   
+
 }
 
 </style>
-  
+
   <body>
 
     <div class="Carregando">
