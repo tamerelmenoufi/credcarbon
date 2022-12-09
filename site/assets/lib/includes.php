@@ -1,6 +1,6 @@
 <?php
     date_default_timezone_set("America/Manaus");
-    include("/appinc/connect.php");
+    include("/credcarbonoinc/connect.php");
     $con = AppConnect('portal');
     include("classes.php");
 
