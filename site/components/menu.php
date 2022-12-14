@@ -34,6 +34,8 @@
 </style>
 
   <!-- ======= Header ======= -->
+
+  <div style="background:#057a34;padding:2px"> <!-- ======= verde ======= --></div>
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
