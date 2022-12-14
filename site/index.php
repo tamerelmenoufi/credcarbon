@@ -83,7 +83,7 @@
         'sobre',
         'noticias',
         'galeria',
-        'banner_depoimentos',
+        //'banner_depoimentos',
 
         // 'pagina_interna',
         // 'pagina_interna2',
@@ -97,7 +97,7 @@
         // 'produtos_servicos2',
         // 'planos',
         // 'faq',
-        
+        //'time',
         'contato',
         'rodape',
 
