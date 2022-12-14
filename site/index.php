@@ -97,7 +97,7 @@
         // 'produtos_servicos2',
         // 'planos',
         // 'faq',
-        'time',
+        
         'contato',
         'rodape',
 
