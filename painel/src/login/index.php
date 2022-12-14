@@ -143,19 +143,19 @@
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #16999a;
-  --bs-btn-border-color: #16999a;
+  --bs-btn-bg: #057a34;
+  --bs-btn-border-color: #057a34;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16999a;
-  --bs-btn-hover-border-color: #16999a;
+  --bs-btn-hover-bg: #057a34;
+  --bs-btn-hover-border-color: #057a34;
   --bs-btn-focus-shadow-rgb: 49,132,253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #16999a;
-  --bs-btn-active-border-color: #16999a;
+  --bs-btn-active-bg: #057a34;
+  --bs-btn-active-border-color: #057a34;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #16999a;
-  --bs-btn-disabled-border-color: #16999a;
+  --bs-btn-disabled-bg: #057a34;
+  --bs-btn-disabled-border-color: #057a34;
 }
 </style>
 
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="card card-container">
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="img/logopainel.png" style="width:80px;" />
+            <img id="profile-img" class="profile-img-card" src="img/logopainelcred.png" style="width:80px;" />
 
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="login" placeholder="Digite seu login" required autofocus>
