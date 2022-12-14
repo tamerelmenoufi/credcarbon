@@ -1,4 +1,10 @@
     <!-- ======= Recent Blog Posts Section ======= -->
+
+    <style> 
+  .recent-blog-posts .post-box:hover .post-title {
+    color: #057a34;
+}
+  </style>
     <section id="recent-blog-posts" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
