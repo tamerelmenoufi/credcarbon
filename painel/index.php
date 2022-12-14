@@ -28,8 +28,14 @@
   <style>
 body {
 
-    background:#057a34;
-
+    background: url(img/fundopncred.jpg);
+    no-repeat center fixed: ;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 }
 
 </style>
