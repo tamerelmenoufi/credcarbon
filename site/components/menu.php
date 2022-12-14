@@ -37,9 +37,9 @@
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="index.php" class=" d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/creadlogo.png" style="height:100px !important;" alt="">
+        <img src="assets/img/logocred.png" style="height:100px !important;" alt="">
        
       </a>
 
