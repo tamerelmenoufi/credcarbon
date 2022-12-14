@@ -590,7 +590,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 60vh;
+ 
   padding: 0;
   background: var(--color-black);
   background: url("../img/hero-bg.png") center center;
