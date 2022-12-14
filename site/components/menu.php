@@ -43,7 +43,6 @@
        
       </a>
 
-      
 
 
       <nav id="navbar" class="navbar">
