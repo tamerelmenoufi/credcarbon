@@ -4,8 +4,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Novidades</h2>
-          <p>Fique antenado com as novidades no mundo da tecnologia</p>
+          <h2>Projetos</h2>
+          <p>CredCaron Manaus  está em demanda em todo o mundo e vai transformar o universo de investimentos. Os ganhos futuros serão reflexo de uma estrutura consolidada e soluções para as maiores urgências do século.</p>
         </div>
 
         <div class="row">
