@@ -76,7 +76,8 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar </button></div>
+           
+              <div class="text-center"><button type="submit" class="btn btn-success">Enviar</button></div>
             </form>
           </div><!-- End Contact Form -->
 
