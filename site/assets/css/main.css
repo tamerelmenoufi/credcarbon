@@ -2768,7 +2768,7 @@ section {
   transition: 0.3s;
 }
 .footer .footer-legal .social-links a:hover {
-  background: var(--color-primary);
+  background: #09903f;
   text-decoration: none;
 }
 li[acao]{
