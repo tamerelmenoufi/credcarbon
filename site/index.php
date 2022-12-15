@@ -81,6 +81,7 @@
         // 'banner_principal2',
         // 'banner_principal3',
         'sobre',
+        'time',
         'noticias',
         //'galeria',
         //'banner_depoimentos',
@@ -97,7 +98,7 @@
         // 'produtos_servicos2',
         // 'planos',
         // 'faq',
-        //'time',
+        
         'contato',
         'rodape',
 
