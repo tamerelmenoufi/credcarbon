@@ -2068,7 +2068,7 @@ section {
   height: 290px;
 }
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background:#057a34;
   border: 0;
   padding: 13px 50px;
   color: var(--color-white);
@@ -2076,7 +2076,7 @@ section {
   border-radius: 0;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(var(--color-primary-rgb), 0.85);
+  background: #4da16f;
 }
 @-webkit-keyframes animate-loading {
   0% {
