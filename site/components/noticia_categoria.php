@@ -79,7 +79,7 @@ border-radius: 0;
 
         </div>
 
-
+<center style="margin-top:20px">
         <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     <li class="page-item disabled">
@@ -93,6 +93,8 @@ border-radius: 0;
     </li>
   </ul>
 </nav>
+
+        </center>
 
         <div class="col-lg-12" style="padding:10px">
     
