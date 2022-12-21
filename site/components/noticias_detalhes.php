@@ -323,7 +323,7 @@ border-radius: 0;
                   </div><!-- End recent post item-->
 
                 </div>
-               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-info">Mais Noticias</button></center>
+               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-success">Mais Noticias</button></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">
