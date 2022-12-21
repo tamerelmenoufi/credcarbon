@@ -2,8 +2,19 @@
 
     <style> 
   .recent-blog-posts .post-box:hover .post-title {
-    color: #057a34;
-}
+    color: #057a34;}
+
+    .botaoverde{
+      padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid #198754;
+    background: #198754;
+    color: #fff;
+    border-radius: 25px 2px 25px;
+    font-size: 17px;
+    }
+
   </style>
     <section id="projetos" class="recent-blog-posts">
 
@@ -69,7 +80,7 @@
 
           <center style="margin-top:20px">
           <a href="noticia_categoria.php">
-         <button type="button" class="btn btn-outline-info">
+         <button type="button" class="botaoverde">
           Outras Noticias
         </button></a>
       </center>
