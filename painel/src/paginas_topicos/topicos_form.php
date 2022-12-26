@@ -86,7 +86,7 @@
 <script>
 
     ClassicEditor
-    .create( document.querySelector( '#descricao' ) )
+    .create( document.querySelector( '#descricao_topico' ) )
     .then( editor => {
         console.log( editor );
     } )
