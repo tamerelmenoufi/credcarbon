@@ -89,7 +89,7 @@
         Carregando('none');
 
         ClassicEditor
-        .create( document.querySelector( '#materia' ) )
+        .create( document.querySelector( '#descricao' ) )
         .then( editor => {
             console.log( editor );
         } )
