@@ -69,7 +69,7 @@
   <label for="descricao_topico">Descrição do Tópico</label>
   <div class="form-text">Digite a descrição do Tópico.</div> -->
 
-  <textarea id="descricao_topico" name="descricao_topico" name="descricao"><?=$topicos->descricao[$_POST['opc']]?></textarea>
+  <textarea id="descricao_topico" name="descricao"><?=$topicos->descricao[$_POST['opc']]?></textarea>
 
 </div>
 
