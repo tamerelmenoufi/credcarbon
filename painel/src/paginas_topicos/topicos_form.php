@@ -84,18 +84,20 @@
 
 
 <script>
+
+    ClassicEditor
+    .create( document.querySelector( '#descricao' ) )
+    .then( editor => {
+        console.log( editor );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );
+
+
     $(function(){
 
         Carregando('none');
-
-        ClassicEditor
-        .create( document.querySelector( '#descricao' ) )
-        .then( editor => {
-            console.log( editor );
-        } )
-        .catch( error => {
-            console.error( error );
-        } );
 
 
         $( "form" ).on( "submit", function( event ) {
