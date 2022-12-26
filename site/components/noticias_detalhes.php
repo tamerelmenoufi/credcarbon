@@ -1,14 +1,24 @@
+    
+    <style>
+
+.botaoazul{
+  background: var(--color-primary);
+border: 0;
+padding: 10px 35px;
+color: #fff;
+transition: 0.4s;
+border-radius: 0;
+}
+
+</style>
+    
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
+    <div style="font-weight:450;background:#057a34;color:#fff" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog Details</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li>Blog Details</li>
-          </ol>
+          <h2 style="">Titulo da Noticia</h2>
+          
         </div>
 
       </div>
@@ -30,13 +40,14 @@
 
               <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
 
-              <div class="meta-top">
+              <!-- <div class="meta-top">
                 <ul>
                   <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
                 </ul>
-              </div><!-- End meta top -->
+              </div> -->
+              <!-- End meta top -->
 
               <div class="content">
                 <p>
@@ -79,7 +90,7 @@
 
               </div><!-- End post content -->
 
-              <div class="meta-bottom">
+              <!-- <div class="meta-bottom">
                 <i class="bi bi-folder"></i>
                 <ul class="cats">
                   <li><a href="#">Business</a></li>
@@ -91,11 +102,12 @@
                   <li><a href="#">Tips</a></li>
                   <li><a href="#">Marketing</a></li>
                 </ul>
-              </div><!-- End meta bottom -->
+              </div> -->
+              <!-- End meta bottom -->
 
             </article><!-- End blog post -->
 
-            <div class="post-author d-flex align-items-center">
+            <!-- <div class="post-author d-flex align-items-center">
               <img src="assets/img/blog/blog-author.jpg" class="rounded-circle flex-shrink-0" alt="">
               <div>
                 <h4>Jane Smith</h4>
@@ -108,9 +120,8 @@
                   Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
                 </p>
               </div>
-            </div><!-- End post author -->
-
-            <div class="comments">
+            </div> --><!-- End post author -->
+            <!-- <div class="comments">
 
               <h4 class="comments-count">8 Comments</h4>
 
@@ -126,9 +137,9 @@
                     </p>
                   </div>
                 </div>
-              </div><!-- End comment #1 -->
+              </div> --><!-- End comment #1 -->
 
-              <div id="comment-2" class="comment">
+              <!-- <div id="comment-2" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-2.jpg" alt=""></div>
                   <div>
@@ -168,13 +179,15 @@
                       </div>
                     </div>
 
-                  </div><!-- End comment reply #2-->
+                  </div>-->
+                  <!-- End comment reply #2-->
 
-                </div><!-- End comment reply #1-->
+                <!-- </div>--> <!-- End comment reply #1-->
 
-              </div><!-- End comment #2-->
+              <!--</div>-->
+              <!-- End comment #2-->
 
-              <div id="comment-3" class="comment">
+              <!-- <div id="comment-3" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
                   <div>
@@ -187,9 +200,10 @@
                   </div>
                 </div>
 
-              </div><!-- End comment #3 -->
+              </div>-->
+              <!-- End comment #3 -->
 
-              <div id="comment-4" class="comment">
+              <!-- <div id="comment-4" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-6.jpg" alt=""></div>
                   <div>
@@ -201,9 +215,9 @@
                   </div>
                 </div>
 
-              </div><!-- End comment #4 -->
+              </div> --><!-- End comment #4 -->
 
-              <div class="reply-form">
+              <!-- <div class="reply-form">
 
                 <h4>Leave a Reply</h4>
                 <p>Your email address will not be published. Required fields are marked * </p>
@@ -232,7 +246,8 @@
 
               </div>
 
-            </div><!-- End blog comments -->
+            </div> -->
+            <!-- End blog comments -->
 
           </div>
 
@@ -240,15 +255,16 @@
 
             <div class="sidebar">
 
-              <div class="sidebar-item search-form">
+              <!-- <div class="sidebar-item search-form">
                 <h3 class="sidebar-title">Search</h3>
                 <form action="" class="mt-3">
                   <input type="text">
                   <button type="submit"><i class="bi bi-search"></i></button>
                 </form>
-              </div><!-- End sidebar search formn-->
+              </div> -->
+              <!-- End sidebar search formn-->
 
-              <div class="sidebar-item categories">
+              <!-- <div class="sidebar-item categories">
                 <h3 class="sidebar-title">Categories</h3>
                 <ul class="mt-3">
                   <li><a href="#">General <span>(25)</span></a></li>
@@ -258,10 +274,11 @@
                   <li><a href="#">Creative <span>(8)</span></a></li>
                   <li><a href="#">Educaion <span>(14)</span></a></li>
                 </ul>
-              </div><!-- End sidebar categories-->
+              </div> -->
+              <!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Recent Posts</h3>
+                <h3 class="sidebar-title">Ultimas noticias</h3>
 
                 <div class="mt-3">
 
@@ -306,10 +323,10 @@
                   </div><!-- End recent post item-->
 
                 </div>
-
+               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-success">Mais Noticias</button></center>
               </div><!-- End sidebar recent posts-->
 
-              <div class="sidebar-item tags">
+              <!-- <div class="sidebar-item tags">
                 <h3 class="sidebar-title">Tags</h3>
                 <ul class="mt-3">
                   <li><a href="#">App</a></li>
@@ -324,12 +341,27 @@
                   <li><a href="#">Tips</a></li>
                   <li><a href="#">Marketing</a></li>
                 </ul>
-              </div><!-- End sidebar tags-->
+              </div> -->
+              <!-- End sidebar tags-->
 
             </div><!-- End Blog Sidebar -->
 
           </div>
         </div>
 
+        <div class="col-lg-12">
+    
+    <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
+                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+ </div>
+ 
+
+
       </div>
     </section><!-- End Blog Details Section -->
+
+
+  
+
+
+              
