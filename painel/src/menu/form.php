@@ -102,7 +102,7 @@
           // console.log($(this).val());
           data.push({'name':$(this).attr('id'), 'value':$(this).val()});
         });
-
+        console.log(data)
         $.ajax({
           url:"src/menu/form.php",
           type:"POST",
@@ -126,6 +126,9 @@
                   $("div[montaMenu]").html(dados);
               }
             });
+          },
+          error:function(){
+            $.alert('Ocorreu um erro');
           }
         });
       });
