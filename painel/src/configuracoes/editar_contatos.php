@@ -34,23 +34,23 @@ midias_sociais
 
     <div class="mb-3">
         <label class="form-label">Telefone</label>
-        <input type="text" class="form-control" value="<?=$d->cep?>" id="cep" >
+        <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" >
     </div>
 
     <div class="mb-3">
         <label class="form-label">E-mail</label>
-        <input type="text" class="form-control" value="<?=$d->rua?>" id="rua" >
+        <input type="text" class="form-control" value="<?=$d->email?>" id="email" >
     </div>
 
     <div class="mb-3">
         <label class="form-label">E-mail (Assinatura)</label>
-        <input type="text" class="form-control" value="<?=$d->numero?>" id="numero" >
+        <input type="text" class="form-control" value="<?=$d->email_assinatura?>" id="email_assinatura" >
     </div>
 
 
     <div class="mb-3">
         <label class="form-label">E-mail (Mensagem Resposta)</label>
-        <input type="text" class="form-control" value="<?=$d->bairro?>" id="bairro" >
+        <input type="text" class="form-control" value="<?=$d->email_resposta?>" id="email_resposta" >
     </div>
 
     <button
@@ -58,7 +58,7 @@ midias_sociais
 
             data-bs-toggle="offcanvas"
 
-            salvar_endereco
+            salvar_contatos
 
     >Editar Contatos</button>
 
@@ -68,7 +68,7 @@ midias_sociais
 
         Carregando('none');
 
-        $("button[salvar_endereco]").click(function(){
+        $("button[salvar_contatos]").click(function(){
             Carregando();
             data = [];
             data.push({name:'telefone', value:$("#cep").val()});
