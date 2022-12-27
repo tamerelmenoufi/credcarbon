@@ -49,7 +49,7 @@
               <?php
               }
               ?>
-              <!-- <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2> -->
+              <h2 class="title"><?=$d->titulo?></h2>
 
               <!-- <div class="meta-top">
                 <ul>
