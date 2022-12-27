@@ -124,6 +124,7 @@
               url:"src/menu/menu.php",
               success:function(dados){
                   $("div[montaMenu]").html(dados);
+                  console.log(dados);
               }
             });
           },
