@@ -82,7 +82,7 @@ midias_sociais
                 data,
                 success:function(dados){
                     $.ajax({
-                        url:"src/configuracoes/cotatos.php",
+                        url:"src/configuracoes/contatos.php",
                         success:function(dados){
                             $(".contatos").html(dados);
                         }
