@@ -40,7 +40,29 @@
 
             <article class="blog-details">
 
-              <?=$d->materia?>
+              <?php
+              if($d->imagem){
+              ?>
+              <div class="post-img">
+                <img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" alt="" class="img-fluid">
+              </div>
+              <?php
+              }
+              ?>
+              <!-- <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2> -->
+
+              <!-- <div class="meta-top">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                </ul>
+              </div> -->
+              <!-- End meta top -->
+
+              <div class="content">
+                <?=$d->materia?>
+              </div><!-- End post content -->
 
               <!-- <div class="meta-bottom">
                 <i class="bi bi-folder"></i>
