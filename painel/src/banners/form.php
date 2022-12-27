@@ -226,7 +226,7 @@
 
             if ($(this).val()) {
                 var files = $(this).prop("files");
-                var opc = $(this).attr("opc");
+                opc = $(this).attr("opc");
                 for (var i = 0; i < files.length; i++) {
                     (function (file) {
                         var fileReader = new FileReader();
@@ -289,6 +289,8 @@
                         var Base64 = f.target.result;
                         var type = file.type;
                         var name = file.name;
+
+                        console.log(opc);
 
                         if(opc == 'mb'){
                           $("#base64_mb").val(Base64);
