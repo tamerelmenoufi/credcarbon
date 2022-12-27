@@ -65,9 +65,12 @@
 </div>
 
 <div class="form-floating mb-3">
-  <textarea class="form-control" style="height:100px;" id="descricao_topico" name="descricao" placeholder="Descrição do tópico"><?=$topicos->descricao[$_POST['opc']]?></textarea>
+  <!-- <textarea class="form-control" style="height:100px;" id="descricao_topico" name="descricao" placeholder="Descrição do tópico"><?=$topicos->descricao[$_POST['opc']]?></textarea>
   <label for="descricao_topico">Descrição do Tópico</label>
-  <div class="form-text">Digite a descrição do Tópico.</div>
+  <div class="form-text">Digite a descrição do Tópico.</div> -->
+
+  <textarea id="descricao_topico" name="descricao"><?=$topicos->descricao[$_POST['opc']]?></textarea>
+
 </div>
 
 <button type="submit" class="btn btn-primary mt-3"> <i class="fa fa-save"></i> Salvar Dados</button>
@@ -81,6 +84,17 @@
 
 
 <script>
+
+    ClassicEditor
+    .create( document.querySelector( '#descricao_topico' ) )
+    .then( editor => {
+        console.log( editor );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );
+
+
     $(function(){
 
         Carregando('none');
