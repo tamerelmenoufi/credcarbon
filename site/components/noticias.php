@@ -16,12 +16,12 @@
     }
 
   </style>
-    <section id="projetos" class="recent-blog-posts">
+    <section id="projetos"  style="padding:0px" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Projetos</h2>
+          <h2>Nossos serviços</h2>
           <p>CredCaron Manaus  está em demanda em todo o mundo e vai transformar o universo de investimentos. Os ganhos futuros serão reflexo de uma estrutura consolidada e soluções para as maiores urgências do século.</p>
         </div>
 
@@ -82,7 +82,7 @@
           <center style="margin-top:20px">
           <a href="noticia_categoria.php">
          <button type="button" class="botaoverde">
-          Outras Noticias
+          Outros serviços
         </button></a>
       </center>
 

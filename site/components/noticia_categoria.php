@@ -19,7 +19,7 @@ border-radius: 0;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Todas as Noticias</h2>
+          <h2 style="">Todos os serviços</h2>
           
         </div>
 
