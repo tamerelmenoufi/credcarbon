@@ -1,26 +1,26 @@
     <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
+<section id="recent-blog-posts" class="recent-blog-posts">
 
-    <style>
+<style>
 
-.botaoazul{
-  background: var(--color-primary);
-border: 0;
-padding: 10px 35px;
-color: #fff;
-transition: 0.4s;
-border-radius: 0;
-}
+  .botaoazul{
+    background: var(--color-primary);
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 0;
+  }
 
 </style>
-    
+
     <!-- ======= Breadcrumbs ======= -->
     <div style="font-weight:450;background:#057a34;color:#fff" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
           <h2 style="">Todos os serviços</h2>
-          
+
         </div>
 
       </div>
@@ -29,7 +29,7 @@ border-radius: 0;
         <div class="row">
 
           <?php
-          $query = "select * from noticias where situacao = '1'";
+          $query = "select * from noticias where situacao = '1' order by codigo desc";
           $result = mysqli_query($con, $query);
           while($d = mysqli_fetch_object($result)){
           ?>
@@ -43,12 +43,12 @@ border-radius: 0;
               </div> -->
               <h3 class="post-title" style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><?=$d->titulo?></h3>
               <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;"><?=strip_tags(str_replace('<',' <',str_replace('>','> ',$d->materia)))?></p>
-              
+
               <a href="noticia.php?cod=<?=$d->codigo?>" class="">
                 <button type="button" class="btn btn-outline-success">Leia Mais<i class="bi bi-arrow-right"></i></button>
               </a>
 
-            
+
             </div>
           </div>
 
@@ -84,26 +84,25 @@ border-radius: 0;
 
         </div>
 
-<center style="margin-top:20px">
-        <nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Proximo</a>
-    </li>
-  </ul>
-</nav>
-
-        </center>
+<!-- <center style="margin-top:20px">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Proximo</a>
+      </li>
+    </ul>
+  </nav>
+</center> -->
 
         <div class="col-lg-12" style="padding:10px">
-    
-    <a style="color:#fff" href="javascript:history.back()"> 
+
+    <a style="color:#fff" href="javascript:history.back()">
     <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
                 Voltar</button></a>
  </div>
