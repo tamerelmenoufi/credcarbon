@@ -290,8 +290,6 @@
                         var type = file.type;
                         var name = file.name;
 
-                        console.log(opc);
-
                         if(opc == 'mb'){
                           $("#base64_mb").val(Base64);
                           $("#imagem_tipo_mb").val(type);
