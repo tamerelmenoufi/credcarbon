@@ -135,7 +135,7 @@
 
 
 
-      <div showImageMb class="form-floating" style="display:<?=(($d->imagem_mb)?'block':'none')?>">
+      <div showImage_mb class="form-floating" style="display:<?=(($d->imagem_mb)?'block':'none')?>">
         <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem_mb?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
 
