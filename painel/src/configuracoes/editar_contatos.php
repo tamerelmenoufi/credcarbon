@@ -1,7 +1,7 @@
 <?php
     include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
-    if($_POST['acao'] == 'endereco'){
+    if($_POST['acao'] == 'contatos'){
 
         $dados = $_POST;
         unset($dados['acao']);
@@ -71,11 +71,11 @@ midias_sociais
         $("button[salvar_contatos]").click(function(){
             Carregando();
             data = [];
-            data.push({name:'telefone', value:$("#cep").val()});
-            data.push({name:'email', value:$("#rua").val()});
-            data.push({name:'email_assinatura', value:$("#numero").val()});
-            data.push({name:'email_resposta', value:$("#bairro").val()});
-            data.push({name:'acao', value:'contato'});
+            data.push({name:'telefone', value:$("#telefone").val()});
+            data.push({name:'email', value:$("#email").val()});
+            data.push({name:'email_assinatura', value:$("#email_assinatura").val()});
+            data.push({name:'email_resposta', value:$("#email_resposta").val()});
+            data.push({name:'acao', value:'contatos'});
             $.ajax({
                 url:"src/configuracoes/editar_contatos.php",
                 type:"POST",
