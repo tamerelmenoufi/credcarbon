@@ -273,7 +273,7 @@
 
 
                 </div>
-               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-success">Mais Noticias</button></center>
+               <center style="margin-top:20px"> <a href='noticia_categoria.php' type="button" class="btn btn-outline-success">Mais Noticias</a></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">

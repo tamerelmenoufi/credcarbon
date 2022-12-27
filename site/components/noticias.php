@@ -1,6 +1,6 @@
     <!-- ======= Recent Blog Posts Section ======= -->
 
-    <style> 
+    <style>
   .recent-blog-posts .post-box:hover .post-title {
     color: #057a34;}
 
