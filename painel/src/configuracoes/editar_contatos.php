@@ -85,6 +85,7 @@
             event.preventDefault();
             // materia = editor.getData();
             data = $( this ).serialize();
+            data.push({name:'acao', value:'contatos'});
             // data.push({name:'materia', value:editor});
             console.log(data)
 
