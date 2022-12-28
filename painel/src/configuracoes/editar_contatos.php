@@ -12,7 +12,7 @@
         }
         $campos[] = "coordenadas = ''";
 
-        $query = "update configuracoes set  ".implode(", ",$campos)." WHERE codigo = '1'";
+        echo $query = "update configuracoes set  ".implode(", ",$campos)." WHERE codigo = '1'";
         mysqli_query($con, $query);
         exit();
     }
@@ -93,6 +93,7 @@
                 type:"POST",
                 data,
                 success:function(dados){
+                    console.log(dados);
                     $.ajax({
                         url:"src/configuracoes/contatos.php",
                         success:function(dados){
