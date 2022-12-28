@@ -88,7 +88,7 @@
             // materia = editor.getData();
             data = $( this ).serialize();
             // data.push({name:'materia', value:editor});
-
+            console.log(data)
 
             $.ajax({
                 url:"src/configuracoes/editar_contatos.php",
