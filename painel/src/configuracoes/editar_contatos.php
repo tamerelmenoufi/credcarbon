@@ -23,7 +23,7 @@
     $d = mysqli_fetch_object($result);
 ?>
 
-
+<form id="acaoContatos">
     <div class="mb-3">
         <label class="form-label">Telefone</label>
         <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" >
@@ -53,8 +53,7 @@
             salvar_contatos
 
     >Editar Contatos</button>
-
-
+</form>
 <script>
 
     ClassicEditor
@@ -75,14 +74,20 @@
 
         $("button[salvar_contatos]").click(function(){
             Carregando();
-            data = [];
-            data.push({name:'telefone', value:$("#telefone").val()});
-            data.push({name:'email', value:$("#email").val()});
-            data.push({name:'email_assinatura', value:$("#email_assinatura").val()});
-            data.push({name:'email_resposta', value:$("#email_resposta").val()});
-            data.push({name:'acao', value:'contatos'});
 
-            console.log(data);
+            // data = [];
+            // data.push({name:'telefone', value:$("#telefone").val()});
+            // data.push({name:'email', value:$("#email").val()});
+            // data.push({name:'email_assinatura', value:$("#email_assinatura").val()});
+            // data.push({name:'email_resposta', value:$("#email_resposta").val()});
+            // data.push({name:'acao', value:'contatos'});
+            // console.log(data);
+
+            event.preventDefault();
+            // materia = editor.getData();
+            data = $( this ).serialize();
+            // data.push({name:'materia', value:editor});
+
 
             $.ajax({
                 url:"src/configuracoes/editar_contatos.php",
