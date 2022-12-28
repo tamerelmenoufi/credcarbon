@@ -72,7 +72,8 @@
 
         Carregando('none');
 
-        $("button[salvar_contatos]").click(function(){
+        $("#acaoContatos").on( "submit", function( event ) {
+
             Carregando();
 
             // data = [];
