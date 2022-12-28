@@ -81,6 +81,9 @@
             data.push({name:'email_assinatura', value:$("#email_assinatura").val()});
             data.push({name:'email_resposta', value:$("#email_resposta").val()});
             data.push({name:'acao', value:'contatos'});
+
+            console.log(data);
+
             $.ajax({
                 url:"src/configuracoes/editar_contatos.php",
                 type:"POST",
