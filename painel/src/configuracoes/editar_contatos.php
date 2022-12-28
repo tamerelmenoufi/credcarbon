@@ -87,14 +87,14 @@
             // materia = editor.getData();
             data = $( this ).serialize();
             // data.push({name:'materia', value:editor});
-            console.log(data)
+            // console.log(data)
 
             $.ajax({
                 url:"src/configuracoes/editar_contatos.php",
                 type:"POST",
                 data,
                 success:function(dados){
-                    console.log(dados);
+                    // console.log(dados);
                     $.ajax({
                         url:"src/configuracoes/contatos.php",
                         success:function(dados){
