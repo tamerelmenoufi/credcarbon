@@ -24,14 +24,6 @@
 ?>
 
 
-email
-email_assinatura
-email_resposta
-telefone
-midias_sociais
-
-
-
     <div class="mb-3">
         <label class="form-label">Telefone</label>
         <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" >
@@ -46,7 +38,6 @@ midias_sociais
         <label class="form-label">E-mail (Assinatura)</label>
         <input type="text" class="form-control" value="<?=$d->email_assinatura?>" id="email_assinatura" >
     </div>
-
 
     <div class="mb-3">
         <!-- <label class="form-label">E-mail (Mensagem Resposta)</label>
