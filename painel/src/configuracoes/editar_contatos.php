@@ -51,6 +51,7 @@
             type="submit"
             salvar_contatos
     >Editar Contatos</button>
+    <input type="hidden" id="acao" name="acao" value="contatos" >
 </form>
 <script>
 
@@ -85,7 +86,6 @@
             event.preventDefault();
             // materia = editor.getData();
             data = $( this ).serialize();
-            data.push({name:'acao', value:'contatos'});
             // data.push({name:'materia', value:editor});
             console.log(data)
 
