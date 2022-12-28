@@ -23,7 +23,7 @@
     $d = mysqli_fetch_object($result);
 ?>
 
-<form id="acaoContatos">
+<form class="acaoContatos">
     <div class="mb-3">
         <label class="form-label">Telefone</label>
         <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" >
@@ -70,7 +70,7 @@
 
         Carregando('none');
 
-        $("#acaoContatos").on( "submit", function( event ) {
+        $("form.acaoContatos").on( "submit", function( event ) {
 
             Carregando();
 
