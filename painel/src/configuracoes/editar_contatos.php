@@ -49,8 +49,9 @@ midias_sociais
 
 
     <div class="mb-3">
-        <label class="form-label">E-mail (Mensagem Resposta)</label>
-        <input type="text" class="form-control" value="<?=$d->email_resposta?>" id="email_resposta" >
+        <!-- <label class="form-label">E-mail (Mensagem Resposta)</label>
+        <input type="text" class="form-control" value="<?=$d->email_resposta?>" id="email_resposta" > -->
+        <textarea id="email_resposta" name="email_resposta"><?=$d->email_resposta?></textarea>
     </div>
 
     <button
@@ -64,6 +65,19 @@ midias_sociais
 
 
 <script>
+
+    ClassicEditor
+    .create( document.querySelector( '#email_resposta' ) )
+    .then( editor => {
+        console.log( editor );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );
+    // console.log(editor);
+
+
+
     $(function(){
 
         Carregando('none');
