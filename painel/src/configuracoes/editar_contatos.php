@@ -47,11 +47,9 @@
 
     <button
             class="btn btn-primary"
-
             data-bs-toggle="offcanvas"
-
+            type="submit"
             salvar_contatos
-
     >Editar Contatos</button>
 </form>
 <script>
