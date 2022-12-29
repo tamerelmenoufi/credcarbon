@@ -81,7 +81,7 @@
 
         // echo "<h1>".$result->0; //->['status']."</h1>";
 
-        if($result['0']['status'] == 'success'){
+        if($result->status == 'success'){
             echo "Mensagem enviada com sucesso!";
         }else{
             echo "Ocorreu um erro, favor tente mais tarde!";
