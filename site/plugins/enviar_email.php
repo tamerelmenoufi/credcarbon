@@ -76,7 +76,7 @@
         $result = file_get_contents("http://137.184.15.211/mailgun/send.php", null, $context);
         #############################################################################
         $result = json_decode($result);
-        var_dump($result);
+        print_r($result);
 
         echo "<h1>".$result['0']['status']."</h1>";
 
