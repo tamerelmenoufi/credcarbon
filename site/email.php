@@ -1,5 +1,7 @@
 <?php
 
+exit();
+
 $dados = [
     'from_name' => 'Mailgun - MOHATRON',
     'from_email' => 'mailgun@moh1.com.br',
