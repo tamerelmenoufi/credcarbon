@@ -97,7 +97,7 @@
         });
 
 
-        $( "form" ).on( "submit", function( event ) {
+        $( "form.php-email-form" ).on( "submit", function( event ) {
 
           event.preventDefault();
           // materia = editor.getData();
