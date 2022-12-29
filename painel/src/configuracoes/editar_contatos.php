@@ -125,7 +125,7 @@
                 type:"POST",
                 data,
                 success:function(dados){
-                    // console.log(dados);
+                    console.log(dados);
                     $.ajax({
                         url:"src/configuracoes/contatos.php",
                         success:function(dados){
