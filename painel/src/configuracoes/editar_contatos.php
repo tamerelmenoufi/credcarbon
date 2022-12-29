@@ -30,17 +30,17 @@
 <form class="acaoContatos">
     <div class="mb-3">
         <label class="form-label">Telefone</label>
-        <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" >
+        <input type="text" class="form-control" value="<?=$d->telefone?>" id="telefone" name="telefone" >
     </div>
 
     <div class="mb-3">
         <label class="form-label">E-mail</label>
-        <input type="text" class="form-control" value="<?=$d->email?>" id="email" >
+        <input type="text" class="form-control" value="<?=$d->email?>" id="email" name="email" >
     </div>
 
     <div class="mb-3">
         <label class="form-label">E-mail (Assinatura)</label>
-        <input type="text" class="form-control" value="<?=$d->email_assinatura?>" id="email_assinatura" >
+        <input type="text" class="form-control" value="<?=$d->email_assinatura?>" id="email_assinatura" name="email_assinatura" >
     </div>
 
     <div class="mb-3">
