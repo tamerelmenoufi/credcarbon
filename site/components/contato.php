@@ -58,7 +58,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome Completo" required>
@@ -76,7 +76,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
               </div>
-           
+
               <div class="text-center"><button type="submit" class="btn btn-success">Enviar</button></div>
             </form>
           </div><!-- End Contact Form -->
@@ -95,5 +95,40 @@
             $(".exibir_mapa").html(dados);
           }
         });
+
+
+        $( "form" ).on( "submit", function( event ) {
+
+          event.preventDefault();
+          // materia = editor.getData();
+          data = $( this ).serialize();
+          // data.push({name:'materia', value:editor});
+          console.log(data);
+
+          $(this).reset();
+
+          $.ajax({
+            url:"plugins/enviar_email.php",
+            type:"POST",
+            data,
+            success:function(dados){
+
+              $.alert({
+                content:dados,
+                type:"orange",
+                title:false,
+                buttons:{
+                  'ok':{
+                    text:'<i class="fa-solid fa-check"></i> OK',
+                    btnClass:'btn btn-warning'
+                  }
+                }
+              });
+
+            }
+          });
+        });
+
+
       })
     </script>
