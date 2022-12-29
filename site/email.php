@@ -1,13 +1,13 @@
 <?php
 
-exit();
+// exit();
 
 $dados = [
     'from_name' => 'Mailgun - MOHATRON',
     'from_email' => 'mailgun@moh1.com.br',
-    'subject' => 'Envio html API\'Mailgun Do CredCabon',
-    'html' => '<html><h2>Título da html de teste</h2><p>Descrição da html de teste da API</p><a href="http://os.bkmanaus.com.br" target="_blank"><img src="cid:img_bk.png" /></a></html>',
-    'attachment' => [
+    'subject' => 'Envio html API\'Mailgun Do CredCabon'. date("d/m/Y H:i:s"),
+    'html' => '<html><h2>Título da html de teste</h2><p>Descrição da html de teste da API</p></html>',
+/*    'attachment' => [
             './img_bk.png',
             './cliente-mohatron.xls',
             './formulario_prato_cheio.pdf',
@@ -15,9 +15,10 @@ $dados = [
     'inline' => [
             './img_bk.png',
     ],
+*/
     'to' => [
             ['to_name' => 'Tamer Elmenoufi', 'to_email' => 'tamer.menoufi@gmail.com'],
-            ['to_name' => 'Tamer Mohamed', 'to_email' => 'tamer@mohatron.com.br'],
+            // ['to_name' => 'Tamer Mohamed', 'to_email' => 'tamer@mohatron.com.br'],
     ]
 ];
 
