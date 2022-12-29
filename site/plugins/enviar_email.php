@@ -7,11 +7,11 @@
 
 // exit();
 
-    $dados = [
+    $dados_retorno = [
         'from_name' => addslashes($d->email_assinatura),
         'from_email' => trim($d->email),
-        'subject' => addslashes('Contato Site: '.addslashes($_POST['name'])),
-        'html' => $_POST['message'],
+        'subject' => addslashes('RE: Contato Site: '.addslashes($_POST['name'])),
+        'html' => $d->email_resposta,
     /*    'attachment' => [
                 './img_bk.png',
                 './cliente-mohatron.xls',
@@ -29,11 +29,11 @@
 
 
 
-    $dados_retorno = [
+    $dados = [
         'from_name' => addslashes($_POST['name']),
         'from_email' => trim($_POST['email']),
-        'subject' => addslashes('RE: Contato Site: '.addslashes($_POST['name'])),
-        'html' => $d->email_resposta,
+        'subject' => addslashes('Contato Site: '.addslashes($_POST['name'])),
+        'html' => $_POST['message'],
     /*    'attachment' => [
                 './img_bk.png',
                 './cliente-mohatron.xls',
@@ -75,7 +75,7 @@
 
         $result = file_get_contents("http://137.184.15.211/mailgun/send.php", null, $context);
         #############################################################################
-        var_dump($result);
+        // var_dump($result);
 
         if($result[0]->status == 'success'){
             echo "Mensagem enviada com sucesso!";
