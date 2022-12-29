@@ -125,13 +125,21 @@
                 type:"POST",
                 data,
                 success:function(dados){
-                    console.log(dados);
+
                     $.ajax({
                         url:"src/configuracoes/contatos.php",
                         success:function(dados){
                             $(".contatos").html(dados);
                         }
                     });
+
+                    $.ajax({
+                        url:"src/configuracoes/midias_sociais.php",
+                        success:function(dados){
+                            $(".midias_sociais").html(dados);
+                        }
+                    });
+
                 }
             })
         });

@@ -5,7 +5,7 @@
     $result = mysqli_query($con, $query);
     $d = mysqli_fetch_object($result);
 
-    $midias = json_decode($d->canais_contatos);
+    $midias = json_decode($d->midias_socias);
 ?>
 <label class="form-label">Complete os endereços das mídias sociais correspondentes:</label>
 <?php
@@ -26,8 +26,12 @@ foreach($midias_sociais as $ind => $url){
     </div> -->
     <div class="input-group-text">
       <?=$url?>
+    </div class="form-control">
+        <?=$midias->$ind?>
+    <div>
+
     </div>
-    <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="<?=$midias->$ind?>" type="text" class="form-control" aria-label="Text input with checkbox">
+    <!-- <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="<?=$midias->$ind?>" type="text" class="form-control" aria-label="Text input with checkbox"> -->
   </div>
 </div>
 <?php
