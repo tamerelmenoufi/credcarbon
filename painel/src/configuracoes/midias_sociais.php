@@ -1,4 +1,12 @@
+<?php
+    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
+    $query = "select * from configuracoes where codigo = '1'";
+    $result = mysqli_query($con, $query);
+    $d = mysqli_fetch_object($result);
+
+    $midias = json_decode($d->canais_contatos);
+?>
 <label class="form-label">Complete os endereços das mídias sociais correspondentes:</label>
 <?php
     $midias_sociais = [
