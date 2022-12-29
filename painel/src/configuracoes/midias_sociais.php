@@ -26,10 +26,9 @@ foreach($midias_sociais as $ind => $url){
     </div> -->
     <div class="input-group-text">
       <?=$url?>
-    </div class="form-control">
+    </div>
+    <div class="form-control">
         <?=$midias->$ind?>
-    <div>
-
     </div>
     <!-- <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="<?=$midias->$ind?>" type="text" class="form-control" aria-label="Text input with checkbox"> -->
   </div>
