@@ -102,7 +102,7 @@
 
         Carregando('none');
 
-        $("#midiaswhatsapp").mask("5599999999999");
+        $("#telefone").mask("+ 55 99 99999-9999");
 
         $("form.acaoContatos").on( "submit", function( event ) {
 
