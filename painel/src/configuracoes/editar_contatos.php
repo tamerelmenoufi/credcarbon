@@ -102,6 +102,8 @@
 
         Carregando('none');
 
+        $("#midiaswhatsapp").mask("5599999999999");
+
         $("form.acaoContatos").on( "submit", function( event ) {
 
             Carregando();
