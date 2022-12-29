@@ -186,7 +186,7 @@
         //   data.push({name:$(this).attr("midias"), value:$(this).val()});
         // });
         // data.push({name:'materia', value:editor});
-        console.log(data);
+        // console.log(data);
 
         $.ajax({
           url:"src/time/form.php",

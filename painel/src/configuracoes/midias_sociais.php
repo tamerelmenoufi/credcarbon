@@ -1,3 +1,5 @@
+
+<label class="form-label">Complete os endereços das mídias sociais correspondentes:</label>
 <?php
     $midias_sociais = [
     'facebook' => 'https://www.facebook.com/',
@@ -9,7 +11,6 @@
     ];
 foreach($midias_sociais as $ind => $url){
 ?>
-<label class="form-label">Complete os endereços das mídias sociais correspondentes:</label>
 <div class="form-floating mb-3">
   <div class="input-group mb-3">
     <!-- <div class="input-group-text">
