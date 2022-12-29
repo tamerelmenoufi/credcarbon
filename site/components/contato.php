@@ -105,8 +105,6 @@
           // data.push({name:'materia', value:editor});
           console.log(data);
 
-          $(this).reset();
-
           $.ajax({
             url:"plugins/enviar_email.php",
             type:"POST",
