@@ -69,14 +69,8 @@
               </div>
 
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" placeholder="Sua mensagem" required></textarea>
+                <textarea class="form-control" name="message" id="message" placeholder="Sua mensagem" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
-              </div>
-
               <div class="text-center"><button type="submit" class="btn btn-success">Enviar</button></div>
             </form>
           </div><!-- End Contact Form -->
@@ -103,13 +97,17 @@
           // materia = editor.getData();
           data = $( this ).serialize();
           // data.push({name:'materia', value:editor});
-          console.log(data);
+          // console.log(data);
 
           $.ajax({
             url:"plugins/enviar_email.php",
             type:"POST",
             data,
             success:function(dados){
+
+              $("#name").val('');
+              $("#email").val('');
+              $("#message").val('');
 
               $.alert({
                 content:dados,
