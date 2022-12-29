@@ -5,7 +5,7 @@
     $result = mysqli_query($con, $query);
     $d = mysqli_fetch_object($result);
 
-    $midias = json_decode($d->midias_socias);
+    $midias = json_decode($d->midias_sociais);
 ?>
 <label class="form-label">Complete os endereços das mídias sociais correspondentes:</label>
 <?php
