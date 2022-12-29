@@ -12,7 +12,7 @@
           $campos[] = "{$i} = '".addslashes($v)."'";
         }
         $campos[] = "coordenadas = ''";
-        $campos['midias_sociais'] = "{$i} = '".json_encode($_POST['midias'])."'";
+        $campos['midias_sociais'] = "midias_sociais = '".json_encode($_POST['midias'])."'";
 
         echo $query = "update configuracoes set  ".implode(", ",$campos)." WHERE codigo = '1'";
         mysqli_query($con, $query);
