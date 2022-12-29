@@ -37,15 +37,7 @@
             aria-controls="offcanvasDireita"
             editar_contato
 
-    >Editar Contatos</button>
-    <button
-            class="btn btn-success ml-3"
-            data-bs-toggle="offcanvas"
-            href="#offcanvasDireita"
-            role="button"
-            aria-controls="offcanvasDireita"
-            editar_midias_sociais
-    >Editar Mídias Sociais</button>
+    >Editar Contatos / Mídias Sociais</button>
 
 <script>
     $(function(){

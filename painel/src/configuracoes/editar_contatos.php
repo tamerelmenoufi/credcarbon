@@ -81,7 +81,7 @@
             data-bs-toggle="offcanvas"
             type="submit"
             salvar_contatos
-    >Editar Contatos</button>
+    >Editar Contatos / Mídias Sociais</button>
     <input type="hidden" id="acao" name="acao" value="contatos" >
 </form>
 <script>
