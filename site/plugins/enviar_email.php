@@ -75,7 +75,7 @@
 
         $result = file_get_contents("http://137.184.15.211/mailgun/send.php", null, $context);
         #############################################################################
-        print_r($result);
+        var_dump(json_decode($result));
 
         if($result[0]->status == 'success'){
             echo "Mensagem enviada com sucesso!";
