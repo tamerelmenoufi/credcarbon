@@ -78,7 +78,9 @@
         $result = json_decode($result);
         var_dump($result);
 
-        if($result[0]->status == 'success'){
+        echo "<h1>".$result['0']->status."</h1>";
+
+        if($result['0']->status == 'success'){
             echo "Mensagem enviada com sucesso!";
         }else{
             echo "Ocorreu um erro, favor tente mais tarde!";
