@@ -5,12 +5,14 @@
 
         $dados = $_POST;
         unset($dados['acao']);
+        unset($dados['midias']);
 
         $campos = [];
         foreach($dados as $i => $v){
           $campos[] = "{$i} = '".addslashes($v)."'";
         }
         $campos[] = "coordenadas = ''";
+        $dados['midias_sociais'] = json_encode($_POST['midias']);
 
         echo $query = "update configuracoes set  ".implode(", ",$campos)." WHERE codigo = '1'";
         mysqli_query($con, $query);
@@ -21,6 +23,8 @@
     $query = "select * from configuracoes where codigo = '1'";
     $result = mysqli_query($con, $query);
     $d = mysqli_fetch_object($result);
+
+    $midias = json_decode($d->midias_sociais);
 ?>
 
 <form class="acaoContatos">
@@ -44,6 +48,33 @@
         <input type="text" class="form-control" value="<?=$d->email_resposta?>" id="email_resposta" > -->
         <textarea id="email_resposta" name="email_resposta"><?=$d->email_resposta?></textarea>
     </div>
+
+
+    <?php
+    $midias_sociais = [
+    'facebook' => 'https://www.facebook.com/',
+    'twitter' => 'https://twitter.com/',
+    'instagram' => 'https://www.instagram.com/',
+    'youtube' => 'https://www.youtube.com/',
+    'linkedin' => 'https://www.linkedin.com/',
+    'whatsapp' => 'https://api.whatsapp.com/'
+    ];
+    foreach($midias_sociais as $ind => $url){
+    ?>
+    <div class="form-floating mb-3">
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-text">
+        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+        </div> -->
+        <div class="input-group-text">
+        <?=$url?>
+        </div>
+        <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="<?=$midias->$ind?>" type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+    </div>
+    <?php
+    }
+    ?>
 
     <button
             class="btn btn-primary"
