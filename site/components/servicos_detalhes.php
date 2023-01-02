@@ -1,6 +1,6 @@
 <?php
 
-  $query = "select * from noticias where codigo = '{$_GET['cod']}'";
+  $query = "select * from servicos where codigo = '{$_GET['cod']}'";
   $result = mysqli_query($con, $query);
   $d = mysqli_fetch_object($result);
 
