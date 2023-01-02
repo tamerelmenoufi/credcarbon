@@ -82,7 +82,7 @@
         // 'banner_principal3',
         'sobre',
         'time',
-        'noticias',
+        'servicos',
         //'galeria',
         //'banner_depoimentos',
 
