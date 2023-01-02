@@ -28,7 +28,7 @@
         <div class="row">
 
           <?php
-          $query = "select * from noticias where situacao = '1'";
+          $query = "select * from servicos where situacao = '1' order by data asc limit 0,3";
           $result = mysqli_query($con, $query);
           while($d = mysqli_fetch_object($result)){
           ?>

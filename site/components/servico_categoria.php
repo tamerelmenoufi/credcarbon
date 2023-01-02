@@ -29,7 +29,7 @@
         <div class="row">
 
           <?php
-          $query = "select * from noticias where situacao = '1' order by codigo desc";
+          $query = "select * from servicos where situacao = '1' order by codigo desc";
           $result = mysqli_query($con, $query);
           while($d = mysqli_fetch_object($result)){
           ?>
