@@ -71,7 +71,7 @@
   }
 </style>
 
-<h3 class="titulo<?=$md5?>">Gerenciamento de Notícias</h3>
+<h3 class="titulo<?=$md5?>">Gerenciamento de Serviços</h3>
 
     <form id="acaoMenu">
 
