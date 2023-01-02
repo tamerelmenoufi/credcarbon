@@ -77,19 +77,20 @@
     $componentes = [
         'menu',
         // 'banner_principal',
-        'banner_principal_scroll',
+        //'banner_principal_scroll',
         // 'banner_principal2',
         // 'banner_principal3',
-        'sobre',
-        'time',
-        'servicos',
+        //'sobre',
+        //'time',
+        //'noticias',
         //'galeria',
         //'banner_depoimentos',
-
+        
         // 'pagina_interna',
         // 'pagina_interna2',
         // 'mais_noticias',
         // 'noticias_detalhes',
+          'servico_categoria',
         // 'produtos_servicos',
         // 'clientes',
         // 'destaque',
@@ -99,9 +100,8 @@
         // 'planos',
         // 'faq',
         //
-        'contato',
+        //'contato',
         'rodape',
-
 
     ];
 

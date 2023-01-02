@@ -21,7 +21,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Noticias</h2>
+          <h2>Nossos serviços</h2>
           <p>CredCaron Manaus  está em demanda em todo o mundo e vai transformar o universo de investimentos. Os ganhos futuros serão reflexo de uma estrutura consolidada e soluções para as maiores urgências do século.</p>
         </div>
 
@@ -42,7 +42,7 @@
               </div> -->
               <h3 class="post-title" style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><?=$d->titulo?></h3>
               <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;"><?=strip_tags(str_replace('<',' <',str_replace('>','> ',$d->materia)))?></p>
-              <a href="noticia.php?cod=<?=$d->codigo?>" class="mt-3 mb-3">
+              <a href="servico.php?cod=<?=$d->codigo?>" class="mt-3 mb-3">
                 <button type="button" class="btn btn-outline-success">Leia Mais<i class="bi bi-arrow-right"></i></button>
               </a>
             </div>

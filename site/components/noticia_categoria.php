@@ -19,7 +19,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Serviços</h2>
+          <h2 style="">Noticias</h2>
 
         </div>
 
