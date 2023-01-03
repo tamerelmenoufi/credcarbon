@@ -81,8 +81,9 @@
         // 'banner_principal2',
         // 'banner_principal3',
         'sobre',
-        'time',
         'servicos',
+        'time',
+        'noticias',
         //'galeria',
         //'banner_depoimentos',
 
