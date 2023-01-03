@@ -256,14 +256,14 @@
 
                 <div class="mt-3">
                   <?php
-                  $query = "select * from noticias where codigo not in({$_GET['cod']}) and situacao = '1' order by codigo desc limit 9";
+                  $query = "select * from servicos where codigo not in({$_GET['cod']}) and situacao = '1' order by codigo desc limit 9";
                   $result = mysqli_query($con, $query);
                   while($d = mysqli_fetch_object($result)){
                   ?>
                   <div class="post-item mt-3">
-                    <img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" alt="" class="flex-shrink-0">
+                    <img src="<?=$localPainel?>src/volume/servicos/<?=$d->imagem?>" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="noticia.php?cod=<?=$d->codigo?>"><?=$d->titulo?></a></h4>
+                      <h4><a href="servico.php?cod=<?=$d->codigo?>"><?=$d->titulo?></a></h4>
                       <!-- <time datetime="2020-01-01">Jan 1, 2020</time> -->
                     </div>
                   </div><!-- End recent post item-->
@@ -273,7 +273,7 @@
 
 
                 </div>
-               <center style="margin-top:20px"> <a href='noticia_categoria.php' type="button" class="btn btn-outline-success">Mais Noticias</a></center>
+               <center style="margin-top:20px"> <a href='servico_categoria.php' type="button" class="btn btn-outline-success">Mais Servicos</a></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">
