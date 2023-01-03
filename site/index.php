@@ -83,6 +83,7 @@
         'sobre',
         'time',
         'servicos',
+        'noticias',
         //'galeria',
         //'banner_depoimentos',
 
