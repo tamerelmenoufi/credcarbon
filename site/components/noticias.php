@@ -80,9 +80,9 @@
 
 
           <center style="margin-top:20px">
-          <a href="servico_categoria.php">
+          <a href="noticia_categoria.php">
          <button type="button" class="botaoverde">
-          Outros serviços
+          Outras noticias
         </button></a>
       </center>
 
