@@ -136,6 +136,45 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/js.js"></script>
+
+  <div class="container "
+            style=" margin:0px;position:fixed!important; bottom:0;
+            background-color:#000000d6;z-index:999999999999;padding:20px;width:100%;color:#fff;font-weight:bold"
+            id="exemplo1"
+            >  
+                <div class="col-md-9" style="" >
+                    Este site utiliza cookies confiáveis e inofensivos para garantir uma melhor experiência de navegação. <br> 
+                    <a style="font-size:16px;" href="#">Política de Privacidade. </a>
+                </div>
+            
+                <div class="col-md-3" style="" >
+                    <span><a id="ocultar" style="border-radius:16px;margin:5px;font-size:16px;" class="btn btn-warning pull-right"  role="button">Aceitar</a></span>
+                </div> 
+            </div>  
+            
+        <script>
+            $(function(){
+                
+                verifica = window.localStorage.getItem('aceita_cookie');
+                
+                if(verifica === '1'){
+                    $("#exemplo1, #exemplo1_fundo").hide();
+                }
+                
+                $("#ocultar").click(function () {
+                    $("#exemplo1, #exemplo1_fundo").hide();
+                    window.localStorage.setItem('aceita_cookie', '1');
+                });
+                
+                
+                
+            })
+        </script>
+        <!-- SCRIPT DA POLITICA DE PRIVACIDADE -->
+
+
+
+
 </body>
 
 </html>
