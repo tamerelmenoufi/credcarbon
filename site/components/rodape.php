@@ -37,12 +37,12 @@
           $midias = json_decode($d->midias_sociais);
 
           $midias_sociais = [
-            'facebook' => 'https://www.facebook.com/credcarbonmanaus',
+            'facebook' => 'https://www.facebook.com/',
             'twitter' => 'https://twitter.com/',
             'instagram' => 'https://instagram.com/credcarbonmanaus?igshid=YmMyMTA2M2Y=',
             'youtube' => 'https://www.youtube.com/',
-            'linkedin' => 'https://www.linkedin.com/company/credcarbonmanaus/',
-            'whatsapp' => 'https://api.whatsapp.com/send?phone=92988273133'
+            'linkedin' => 'https://www.linkedin.com/',
+            'whatsapp' => 'https://api.whatsapp.com/send?phone='
           ];
 
           foreach($midias_sociais as $ind => $url){
