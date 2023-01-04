@@ -39,7 +39,7 @@
           $midias_sociais = [
             'facebook' => 'https://www.facebook.com/',
             'twitter' => 'https://twitter.com/',
-            'instagram' => 'https://www.instagram.com/',
+            'instagram' => 'https://instagram.com/credcarbonmanaus?igshid=YmMyMTA2M2Y=',
             'youtube' => 'https://www.youtube.com/',
             'linkedin' => 'https://www.linkedin.com/',
             'whatsapp' => 'https://api.whatsapp.com/send?phone='

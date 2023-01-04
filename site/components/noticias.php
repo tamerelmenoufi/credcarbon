@@ -28,7 +28,7 @@
         <div class="row">
 
           <?php
-          $query = "select * from noticias where situacao = '1'";
+          $query = "select * from noticias where situacao = '1' order by data asc limit 0,3";
           $result = mysqli_query($con, $query);
           while($d = mysqli_fetch_object($result)){
           ?>
@@ -80,9 +80,9 @@
 
 
           <center style="margin-top:20px">
-          <a href="servico_categoria.php">
+          <a href="noticia_categoria.php">
          <button type="button" class="botaoverde">
-          Outros serviços
+          Outras noticias
         </button></a>
       </center>
 
