@@ -137,7 +137,7 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/js.js"></script>
 
-  <div class="container "
+  <div class=" "
             style=" margin:0px;position:fixed!important; bottom:0;
             background-color:#000000d6;z-index:999999999999;padding:20px;width:100%;color:#fff;font-weight:bold"
             id="exemplo1"
