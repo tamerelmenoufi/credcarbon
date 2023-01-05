@@ -92,12 +92,13 @@
       <div showImage class="form-floating" style="display:<?=(($d->imagem)?'block':'none')?>">
         <img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
-
+x'
       <!-- <div class="form-floating"> -->
         <input type="file" class="form-control" placeholder="Banner">
         <input type="hidden" id="base64" name="base64" value="" />
         <input type="hidden" id="imagem_tipo" name="imagem_tipo" value="" />
         <input type="hidden" id="imagem_nome" name="imagem_nome" value="" />
+        <input type="text" id="imagem_size" name="imagem_size" value="" />
         <input type="hidden" id="imagem" name="imagem" value="<?=$d->imagem?>" />
         <!-- <label for="url">Banner</label> -->
         <div class="form-text mb-3">Selecione a imagem para o Banner</div>
@@ -259,10 +260,12 @@
                         var Base64 = f.target.result;
                         var type = file.type;
                         var name = file.name;
+                        var size = file.size;
 
                         $("#base64").val(Base64);
                         $("#imagem_tipo").val(type);
                         $("#imagem_nome").val(name);
+                        $("#imagem_size").val(size);
 
                         $("div[showImage] img").attr("src",Base64);
                         $("div[showImage]").css("display",'block');
