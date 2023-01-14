@@ -4,4 +4,4 @@
 
     $post = addslashes(json_encode($_POST));
 
-    file_put_contents('anexos/'.date("YmdHis").".txt");
+    file_put_contents('anexos/'.date("YmdHis").".txt", var_dump($post));
