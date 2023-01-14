@@ -5,4 +5,12 @@
     // $post = addslashes(json_encode($_POST));
     $post = var_dump($_POST).var_dump($_GET);
 
-    file_put_contents('anexos/'.date("YmdHis").".txt", $post);
+    $dados = false;
+    foreach($_POST['[attachments]'] as $ind => $arq){
+        $dados .= "Nome: ".$arq['name']."\n";
+        $dados .= "Type: ".$arq['content-type']."\n";
+        $dados .= "Size: ".$arq['size']."\n";
+        $dados .= "url: ".$arq['url']."\n\n\n";
+    }
+
+    file_put_contents('anexos/'.date("YmdHis").".txt", $post."\n\n\n".$dados);
