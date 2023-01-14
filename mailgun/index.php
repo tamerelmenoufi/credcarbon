@@ -3,7 +3,7 @@
     $_POST = json_decode(file_get_contents('php://input'), true);
 
     // $post = addslashes(json_encode($_POST));
-    $post = var_dump($_POST).var_dump($_GET);
+    $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
     $dados = false;
     foreach($_POST['[attachments]'] as $ind => $arq){
