@@ -7,6 +7,7 @@
 
     $dados = false;
     foreach($_POST['attachments'] as $ind => $arq){
+        $dados .= print_r($arq, true)."\n";
         $dados .= "Nome: ".$arq['name']."\n";
         $dados .= "Type: ".$arq['content-type']."\n";
         $dados .= "Size: ".$arq['size']."\n";
