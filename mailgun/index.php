@@ -5,7 +5,7 @@
     // $post = addslashes(json_encode($_POST));
     $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
-    $dados = false;
+    $dados = print_r($_POST['attachments'], true);
     foreach($_POST['attachments'] as $ind => $arq){
         $dados .= print_r($arq, true)."\n";
         $dados .= "Nome: ".$arq['name']."\n";
