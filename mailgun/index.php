@@ -6,7 +6,7 @@
     $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
     $dados = false;
-    foreach($_POST['[attachments]'] as $ind => $arq){
+    foreach($_POST['attachments'] as $ind => $arq){
         $dados .= "Nome: ".$arq['name']."\n";
         $dados .= "Type: ".$arq['content-type']."\n";
         $dados .= "Size: ".$arq['size']."\n";
