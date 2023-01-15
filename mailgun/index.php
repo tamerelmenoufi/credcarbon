@@ -8,11 +8,11 @@
     $attachments = json_decode($_POST['attachments']);
     $dados = print_r($attachments, true)."\n\n";
     foreach($attachments as $ind => $arq){
-        $dados .= print_r($arq, true)."\n";
-        $dados .= "Nome: ".$arq['name']."\n";
-        $dados .= "Type: ".$arq['content-type']."\n";
-        $dados .= "Size: ".$arq['size']."\n";
-        $dados .= "url: ".$arq['url']."\n\n\n";
+        // $dados .= print_r($arq, true)."\n";
+        // $dados .= "Nome: ".$arq['name']."\n";
+        // $dados .= "Type: ".$arq['content-type']."\n";
+        // $dados .= "Size: ".$arq['size']."\n";
+        // $dados .= "url: ".$arq['url']."\n\n\n";
     }
 
     file_put_contents('anexos/'.date("YmdHis").".txt", $post."\n\n\n".$dados);
