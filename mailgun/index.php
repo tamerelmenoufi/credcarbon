@@ -12,7 +12,7 @@
     $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
     $result = mysqli_query($con, "insert into mailgun set email = '{$mailgun}', data = NOW()");
-    $registro = mysqli_insert_id($result);
+    $registro = mysqli_insert_id($con);
 
     $attachments = json_decode($_POST['attachments']);
     $dados = false;
