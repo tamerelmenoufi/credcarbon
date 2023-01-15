@@ -9,7 +9,7 @@
     $_POST = json_decode(file_get_contents('php://input'), true);
 
     $mailgun = addslashes(json_encode($_POST));
-    $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
+    // $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
     $result = mysqli_query($con, "insert into mailgun set email = '{$mailgun}', data = NOW()");
     $registro = mysqli_insert_id($con);
@@ -31,6 +31,6 @@
 
     }
 
-    file_put_contents('anexos/'.date("YmdHis").".txt", $post."\n\n\n".$dados);
+    // file_put_contents('anexos/'.date("YmdHis").".txt", $post."\n\n\n".$dados);
 
     //Teste
