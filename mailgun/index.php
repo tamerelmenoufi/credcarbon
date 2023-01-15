@@ -6,14 +6,18 @@
     $post = print_r($_POST, true)."\n<hr>\n".print_r($_GET, true);
 
     $attachments = json_decode($_POST['attachments']);
-    $dados = print_r($attachments, true)."\n\n";
+    $dados = false;
     foreach($attachments as $ind => $arq){
-        $dados .= print_r($arq, true)."\n";
         $dados .= "Nome: ".$arq->name."\n";
         $opc = 'content-type';
         $dados .= "Type: ".$arq->$opc."\n";
         $dados .= "Size: ".$arq->size."\n";
         $dados .= "url: ".$arq->url."\n\n\n";
+
+        $arquivo = file_get_contents(str_replace("://","://api:key-f084b8985ece92fcbbc2948cfe7f855f@",$arq->url));
+
+        file_put_contents("anexos/{$arq->name}", $arquivo);
+
     }
 
     file_put_contents('anexos/'.date("YmdHis").".txt", $post."\n\n\n".$dados);
