@@ -22,11 +22,12 @@
 
         <div class="section-header">
           <h2>Nossos serviços</h2>
-          <p>CredCaron Manaus  está em demanda em todo o mundo e vai transformar o universo de investimentos. Os ganhos futuros serão reflexo de uma estrutura consolidada e soluções para as maiores urgências do século.</p>
+          <p>A CREDCARBON é uma empresa direcionada para a prestação de serviço de consultoria e gestão de ativos intangíveis. Está instalada estrategicamente na cidade de Manaus/AM e pretende atender a demanda e procura pelos seus serviços com uma equipe multidisciplinar de excelência.</p>
         </div>
 
         <div class="row">
 
+        
           <?php
           $query = "select * from servicos where situacao = '1' order by data asc limit 0,3";
           $result = mysqli_query($con, $query);
