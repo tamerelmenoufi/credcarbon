@@ -20,7 +20,7 @@
         <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-5">
-            <div class="about-img">
+            <div class="about-imgxx">
               <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px;">
             </div>
           </div>
