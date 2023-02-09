@@ -27,7 +27,7 @@
 
         <div class="row">
 
-        
+
           <?php
           $query = "select * from servicos where situacao = '1' order by data asc limit 0,3";
           $result = mysqli_query($con, $query);
@@ -36,7 +36,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
-              <div style="margin-top:10px" class="post-img"><img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""></div>
+              <div style="margin-top:10px" class="post-img"><img src="<?=$localPainel?>src/volume/servicos/<?=$d->imagem?>" class="img-fluid" alt=""></div>
               <!-- <div class="meta">
                 <span class="post-date">Tue, December 12</span>
                 <span class="post-author"> / Julia Parker</span>
