@@ -21,7 +21,7 @@
 
           <div class="col-lg-5">
             <div class="about-img">
-              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px; border:solid 0.5 #fff;">
+              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px; border:solid 0.5px #fff;">
             </div>
           </div>
 
