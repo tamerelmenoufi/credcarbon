@@ -86,7 +86,9 @@
 <script>
 
     ClassicEditor
-    .create( document.querySelector( '#descricao_topico' ) )
+    .create( document.querySelector( '#descricao_topico' ), {
+        toolbar: [ 'bold', 'italic' ]
+    })
     .then( editor => {
         console.log( editor );
     } )
