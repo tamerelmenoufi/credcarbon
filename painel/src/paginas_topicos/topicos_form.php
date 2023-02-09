@@ -91,8 +91,9 @@
             // 'exportPDF','exportWord', '|',
             // 'findAndReplace', 'selectAll', '|',
             // 'heading', '|',
-            'bold', 'italic', 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
-            // 'bulletedList', 'numberedList', 'todoList', '|', //*****
+            'bold', 'italic',
+            // 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
+            'bulletedList', 'numberedList', 'todoList', '|', //*****
             // 'outdent', 'indent', '|',
             // 'undo', 'redo',
             // '-',
