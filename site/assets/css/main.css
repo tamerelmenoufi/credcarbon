@@ -1002,7 +1002,7 @@ section {
   content: "";
   background: url("http://206.81.10.165:8180/credcarbon/painel/src/volume/paginas_topicos/f299b0adaeb7b5ee9edb5e2b3a0c7f87.jpg") top left;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 @media (max-width: 575px) {
   .about .about-img {
