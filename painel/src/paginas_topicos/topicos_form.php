@@ -98,8 +98,8 @@
             // 'outdent', 'indent', '|',
             // 'undo', 'redo',
             // '-',
-            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|', //*****
-            // 'alignment', '|', //*****
+            // 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|', //*****
+            'alignment', '|', //*****
             // 'link', 'insertImage',
             // 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', //*****
             //  'htmlEmbed', '|',
