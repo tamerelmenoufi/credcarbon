@@ -22,9 +22,11 @@
 
         <div class="section-header">
           <h2>Noticias</h2>
-          <p>CredCaron Manaus  está em demanda em todo o mundo e vai transformar o universo de investimentos. Os ganhos futuros serão reflexo de uma estrutura consolidada e soluções para as maiores urgências do século.</p>
+          <p>Fique por dentro das atualizações no ramo de crédito de carbono, regularização fundiária entre outros.
+          </p>
         </div>
 
+        
         <div class="row">
 
           <?php
