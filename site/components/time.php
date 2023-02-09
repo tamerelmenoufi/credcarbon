@@ -21,7 +21,7 @@
         ?>
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
-              <div class="member-img">
+              <div class="member-img" style="height:320px">
                 <img src="<?=$localPainel?>src/volume/time/<?=$d->imagem?>" class="img-fluid" alt="">
               </div>
               <div class="member-info">
