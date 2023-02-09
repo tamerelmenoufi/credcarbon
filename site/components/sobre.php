@@ -47,7 +47,7 @@
             foreach($topicos->descricao as $i => $descricao){
             ?>
             <div class="tab-pane fade show <?=(($i == 0)?'active':false)?>" id="tab<?=($i+1)?>">
-              <p class="fst-italic"><?=$descricao?></p>
+              <p class="fst-italic"><?=html_entity_decode($descricao)?></p>
             </div>
             <?php
             }
