@@ -1004,6 +1004,7 @@ section {
   background-repeat: no-repeat;
   opacity: 0.9;
   border-radius:20px;
+  border:solid 0.5 #eee;
 }
 @media (max-width: 575px) {
   .about .about-img {
