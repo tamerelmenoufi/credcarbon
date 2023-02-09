@@ -2,7 +2,7 @@
 if($_GET['cod']){
   $query = "select * from banners where codigo = '{$_GET['cod']}'";
 }else{
-  $query = "select * from banners where situacao = '1' limit 2";
+  $query = "select * from banners where situacao = '1'";
 }
   $result = mysqli_query($con, $query);
 ?>
