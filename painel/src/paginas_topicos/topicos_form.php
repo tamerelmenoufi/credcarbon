@@ -93,11 +93,12 @@
             // 'heading', '|',
             'bold', 'italic',
             // 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
-            'bulletedList', 'numberedList', 'todoList', '|', //*****
+            'bulletedList', 'numberedList',
+            // 'todoList', '|', //*****
             // 'outdent', 'indent', '|',
             // 'undo', 'redo',
             // '-',
-            // 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|', //*****
+            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|', //*****
             // 'alignment', '|', //*****
             // 'link', 'insertImage',
             // 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', //*****
