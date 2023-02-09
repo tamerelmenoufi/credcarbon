@@ -87,22 +87,7 @@
 
     ClassicEditor
     .create( document.querySelector( '#descricao_topico' ), {
-        toolbar: [
-            'exportPDF','exportWord', '|',
-            'findAndReplace', 'selectAll', '|',
-            'heading', '|',
-            'bold', 'italic', 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
-            'bulletedList', 'numberedList', 'todoList', '|',
-            'outdent', 'indent', '|',
-            'undo', 'redo',
-            '-',
-            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|',
-            'alignment', '|',
-            'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', 'htmlEmbed', '|',
-            'specialCharacters', 'horizontalLine', 'pageBreak', '|',
-            'textPartLanguage', '|',
-            'sourceEditing'
-         ]
+        toolbar: [ 'bold', 'italic' ]
     })
     .then( editor => {
         console.log( editor );
