@@ -11,8 +11,8 @@
 
       if($_POST['situacao']){
         mysqli_query($con, "update banners set situacao = '0'");
-        $query = "update banners set situacao = '{$_POST['opc']}' where codigo = '{$_POST['situacao']}'";
-        mysqli_query($con, $query);
+        // $query = "update banners set situacao = '{$_POST['opc']}' where codigo = '{$_POST['situacao']}'";
+        // mysqli_query($con, $query);
         exit();
       }
 
@@ -266,7 +266,7 @@
             situacao = $(this).attr("situacao");
             opc = false;
             status = obj.prop("checked");
-            $(".situacao").prop("checked", false);
+            // $(".situacao").prop("checked", false);
             if(status === 'true'){
               opc = '1';
               obj.prop("checked", true);
