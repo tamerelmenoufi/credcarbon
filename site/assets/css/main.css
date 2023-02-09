@@ -590,7 +590,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
- 
+
   padding: 0;
   background: var(--color-black);
   background: url("../img/hero-bg.png") center center;
@@ -1000,8 +1000,9 @@ section {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/about-bg.png") top left;
+  background: url("http://206.81.10.165:8180/credcarbon/painel/src/volume/paginas_topicos/f299b0adaeb7b5ee9edb5e2b3a0c7f87.jpg") top left;
   background-repeat: no-repeat;
+  opacity: 0.5;
 }
 @media (max-width: 575px) {
   .about .about-img {
