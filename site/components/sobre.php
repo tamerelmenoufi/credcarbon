@@ -7,7 +7,30 @@
   $topicos = json_decode($d->topicos);
 
 ?>
+<style>
+  .sombra{
+    /* offset-x | offset-y | color */
+box-shadow: 60px -16px teal;
 
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 5px 5px black;
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+/* inset | offset-x | offset-y | color */
+box-shadow: inset 5em 1em gold;
+
+/* Any number of shadows, separated by commas */
+box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+/* Global keywords */
+box-shadow: inherit;
+box-shadow: initial;
+box-shadow: unset;
+
+  }
+</style>
 <!-- ======= About Section ======= -->
 <section id="conheca" class="about">
       <div class="container" data-aos="fade-up">
@@ -21,7 +44,7 @@
 
           <div class="col-lg-5">
             <div class="about-img">
-              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px; border:solid 0.5px #ccc;">
+              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid sombra" style="border-radius:20px;">
             </div>
           </div>
 
