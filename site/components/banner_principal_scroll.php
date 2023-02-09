@@ -22,10 +22,7 @@ if($_GET['cod']){
             <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem_mb?>" alt="" class="d-block w-100">
     </div>
     <!-- End Carousel Item -->
-    <?php
-    $active = false;
-    }
-    ?>
+
     <!-- <div class="carousel-item">
       <div class="container">
         <div class="row justify-content-center gy-6">
@@ -71,5 +68,8 @@ if($_GET['cod']){
     </a>
 
     <ol class="carousel-indicators" style="margin-bottom:2rem !important;"></ol>
-
+    <?php
+    $active = false;
+    }
+    ?>
   </section><!-- End Hero Section -->
