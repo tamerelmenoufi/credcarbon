@@ -70,6 +70,7 @@ if($_GET['cod']){
     <ol class="carousel-indicators" style="margin-bottom:2rem !important;"></ol>
     <?php
     $active = false;
+    //Teste
     }
     ?>
   </section><!-- End Hero Section -->
