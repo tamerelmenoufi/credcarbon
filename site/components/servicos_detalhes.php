@@ -44,7 +44,7 @@
               if($d->imagem){
               ?>
               <div class="post-img">
-                <img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" alt="" class="img-fluid">
+                <img src="<?=$localPainel?>src/volume/servicos/<?=$d->imagem?>" alt="" class="img-fluid">
               </div>
               <?php
               }
