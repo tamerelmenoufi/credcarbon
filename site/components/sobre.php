@@ -7,15 +7,7 @@
   $topicos = json_decode($d->topicos);
 
 ?>
-<style>
-  .sombra{
-    /* offset-x | offset-y | color */
-    -webkit-box-shadow: -35px 32px 14px rgba(29, 140, 231, 0.45);
-		-moz-box-shadow:    -35px 32px 14px rgba(29, 140, 231, 0.45);
-		box-shadow:         -35px 32px 14px rgba(29, 140, 231, 0.45);
 
-  }
-</style>
 <!-- ======= About Section ======= -->
 <section id="conheca" class="about">
       <div class="container" data-aos="fade-up">
@@ -29,7 +21,7 @@
 
           <div class="col-lg-5">
             <div class="about-img">
-              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid sombra" style="border-radius:20px;">
+              <img src="<?=$localPainel?>src/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px;">
             </div>
           </div>
 
