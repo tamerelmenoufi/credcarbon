@@ -4,6 +4,8 @@ if($_GET['cod']){
 }else{
   $query = "select * from banners where situacao = '1'";
 }
+
+  $query = "select * from banners where situacao = '1'";
   $result = mysqli_query($con, $query);
 ?>
 <!-- ======= Hero Section ======= -->
