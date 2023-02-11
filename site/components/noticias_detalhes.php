@@ -252,7 +252,7 @@
               <!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Mais Noticias</h3>
+                <h3 class="sidebar-title">Mais Eventos</h3>
 
                 <div class="mt-3">
                   <?php
@@ -273,7 +273,7 @@
 
 
                 </div>
-               <center style="margin-top:20px"> <a href='noticia_categoria.php' type="button" class="btn btn-outline-success">Mais Noticias</a></center>
+               <center style="margin-top:20px"> <a href='noticia_categoria.php' type="button" class="btn btn-outline-success">Mais eventos</a></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">
