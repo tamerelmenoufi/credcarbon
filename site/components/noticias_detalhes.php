@@ -60,7 +60,7 @@
               </div> -->
               <!-- End meta top -->
 
-              <div class="content">
+              <div class="content" style="text-align:justify;">
                 <?=$d->materia?>
               </div><!-- End post content -->
 
