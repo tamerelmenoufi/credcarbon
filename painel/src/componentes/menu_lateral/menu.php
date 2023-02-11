@@ -66,7 +66,7 @@
     <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/noticias/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-regular fa-newspaper"></i> Notícias
+          <i class="fa-regular fa-newspaper"></i> Eventos
         </a>
       </div>
     </div>
