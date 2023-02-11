@@ -21,12 +21,12 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Noticias</h2>
+          <h2>Eventos</h2>
           <p>Fique por dentro das atualizações no ramo de crédito de carbono, regularização fundiária entre outros.
           </p>
         </div>
 
-        
+
         <div class="row">
 
           <?php
