@@ -84,7 +84,7 @@
           <center style="margin-top:20px">
           <a href="noticia_categoria.php">
          <button type="button" class="botaoverde">
-          Outras noticias
+          Outros eventos
         </button></a>
       </center>
 
