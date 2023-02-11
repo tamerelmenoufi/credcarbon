@@ -29,7 +29,7 @@
 
         <div class="row gy-5 gx-lg-5">
 
-          <div class="col-lg-4">
+          <div class="col-lg-5">
 
             <div class="info">
               <h3>Entre em contato</h3>
@@ -57,7 +57,7 @@
 
           </div>
 
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <form class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
