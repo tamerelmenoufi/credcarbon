@@ -55,13 +55,13 @@
                   <th scope="col">Ações</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody class="grupoMenus">
                 <?php
                   $query = "select * from time order by nome asc";
                   $result = mysqli_query($con, $query);
                   while($d = mysqli_fetch_object($result)){
                 ?>
-                <tr>
+                <tr class="listaMenu" cod="<?=$d->codigo?>">
                   <td style="white-space: nowrap;"><?=$d->nome?></td>
                   <td style="white-space: nowrap;"><?=$d->cargo?></td>
                   <td style="white-space: nowrap;">
@@ -178,6 +178,30 @@
     $(function(){
 
         Carregando('none');
+
+
+        $( ".grupoMenus" ).sortable({
+            revert: false,
+            placeholder: 'placeholder',
+            stop: function () {
+                posicao = [];
+                $( ".listaMenu" ).each(function(){
+                    posicao.push($(this).attr('cod'));
+                });
+                // $.ajax({
+                //     url:"src/menu/menu.php",
+                //     type:"POST",
+                //     data:{
+                //         acao:"ordem",
+                //         posicao,
+                //     },
+                //     success:function(dados){
+                //         // $.dialog(dados);
+                //     }
+                // })
+            }
+        });
+
 
 
         $("button[novoCadastro]").click(function(){
