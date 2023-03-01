@@ -7,8 +7,10 @@
         exit();
     }
 
+    $app = (($app)?:'site');
+
     if($_SESSION['ProjectPainel']){
-        $url = "site/home/index.php";
+        $url = "{$app}/home/index.php";
     }else{
         $url = "src/login/index.php";
     }
