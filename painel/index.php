@@ -10,7 +10,7 @@
     if($_SESSION['ProjectPainel']){
         $url = "src/home/index.php";
     }else{
-        $url = "src/login/index.php";
+        $url = "site/login/index.php";
     }
 ?>
 <!doctype html>
