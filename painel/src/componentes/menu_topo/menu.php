@@ -59,7 +59,14 @@
 
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                    class="nav-link"
+                    href="#" id="navbarScrollingDropdown2"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    ria-expanded="false"
+                    style="background-color:rgb(255,255,255, 0.6); border-radius:100%; padding:5px;"
+                >
                   <i class="fa-brands fa-buromobelexperte" style="font-size:35px;"></i>
                 </a>
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
