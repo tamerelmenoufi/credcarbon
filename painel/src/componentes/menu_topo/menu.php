@@ -32,32 +32,6 @@
 
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-brands fa-buromobelexperte"></i>
-                </a>
-                <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
-                    <li class="MenuLogin">
-                      <div class="row">
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                        <div class="col-4">1</div>
-                      </div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <?=$_SESSION['ProjectPainel']->nome?> <i class="fa-solid fa-user"></i>
                 </a>
@@ -77,6 +51,32 @@
                           <i class="fa-solid fa-right-from-bracket"></i> Sair
                         </a>
                       </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-brands fa-buromobelexperte"></i>
+                </a>
+                <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
+                    <li class="MenuLogin">
+                      <div class="row">
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                        <div class="col-4">1</div>
+                      </div>
                     </li>
                 </ul>
             </li>
