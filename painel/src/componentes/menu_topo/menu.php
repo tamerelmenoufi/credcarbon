@@ -68,9 +68,9 @@
                     style="
                             background-color:#eee;
                             border-radius:100%;
-                            padding:10px;
                             width:40px;
                             height:40px;
+                            font-weight:bold;
                           "
                 >
                   <i class="fa-brands fa-buromobelexperte" style="font-size:25px;"></i>
