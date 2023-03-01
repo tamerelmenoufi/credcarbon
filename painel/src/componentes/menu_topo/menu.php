@@ -65,9 +65,9 @@
                     role="button"
                     data-bs-toggle="dropdown"
                     ria-expanded="false"
-                    style="background-color:rgb(255,255,255, 0.6); border-radius:100%; padding:5px;"
+                    style="background-color:#ccc; border-radius:100%; padding:10px;"
                 >
-                  <i class="fa-brands fa-buromobelexperte" style="font-size:30px;"></i>
+                  <i class="fa-brands fa-buromobelexperte" style="font-size:25px;"></i>
                 </a>
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
                     <li class="MenuLogin">
