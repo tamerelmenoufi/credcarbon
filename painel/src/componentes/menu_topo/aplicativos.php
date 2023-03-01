@@ -40,21 +40,21 @@
                 <div class="row">
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
+                        <div app="email" class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-envelope-open-text"></i></h3>
                             <span>E-mail</span>
                         </div>
                     </div>
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
+                        <div app="agenda" class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-calendar-days"></i></h3>
                             <span>Agenda</span>
                         </div>
                     </div>
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
+                        <div app="site" class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-house"></i></h3>
                             <span>Site</span>
                         </div>
@@ -65,3 +65,12 @@
         </ul>
     </li>
 </ul>
+
+<script>
+    $(function(){
+        $("div[app]").click(function(){
+            app = $(this).attr("app");
+            window.location.href=`./?app=${app}`;
+        });
+    })
+</script>
