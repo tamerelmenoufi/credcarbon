@@ -22,39 +22,10 @@
         <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
             <li class="MenuLogin">
                 <div class="row">
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
 
                     <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
-
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
-
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
-
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
-
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
-                    </div>
-
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h4>E-mail</h4>
+                       <h4><i class="fa-solid fa-envelope-open-text"></i></h4>
+                        E-mail
                     </div>
 
                 </div>
