@@ -1,6 +1,19 @@
 <?php
     include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 ?>
+<style>
+    .appIcons{
+        background-color:#fff;
+        border:solid 1px #fff;
+        cursor:pointer;
+    }
+    .appIcons:hover{
+        background-color:#eee;
+        border:solid 1px #ccc;
+        cursor:pointer;
+    }
+</style>
+
 <ul class="navbar-nav">
     <li class="nav-item dropdown">
         <a
@@ -24,21 +37,21 @@
                 <div class="row">
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center" style="background-color:#eee" >
+                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-envelope-open-text"></i></h3>
                             <span class="fs-6">E-mail</span>
                         </div>
                     </div>
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center" style="background-color:#eee" >
+                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-house"></i></h3>
                             <span class="fs-6">Site</span>
                         </div>
                     </div>
 
                     <div class="col-4">
-                        <div class="card w-100 d-flex align-items-center justify-content-center" style="background-color:#eee" >
+                        <div class="card w-100 d-flex align-items-center justify-content-center appIcons" >
                             <h3><i class="fa-solid fa-calendar-days"></i></h3>
                             <span class="fs-6">Agenda</span>
                         </div>
