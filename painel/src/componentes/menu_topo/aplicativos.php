@@ -12,6 +12,9 @@
         border:solid 1px #ccc;
         cursor:pointer;
     }
+    .appIcons span{
+        font-size:12px;
+    }
 </style>
 
 <ul class="navbar-nav">
