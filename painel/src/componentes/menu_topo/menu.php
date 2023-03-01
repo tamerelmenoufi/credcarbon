@@ -65,7 +65,13 @@
                     role="button"
                     data-bs-toggle="dropdown"
                     ria-expanded="false"
-                    style="background-color:#ccc; border-radius:100%; padding:10px;"
+                    style="
+                            background-color:#eee;
+                            border-radius:100%;
+                            padding:10px;
+                            width:30px;
+                            height:30px;
+                          "
                 >
                   <i class="fa-brands fa-buromobelexperte" style="font-size:25px;"></i>
                 </a>
