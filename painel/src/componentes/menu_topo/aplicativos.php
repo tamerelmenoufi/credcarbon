@@ -1,3 +1,6 @@
+<?php
+    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
+?>
 <ul class="navbar-nav">
     <li class="nav-item dropdown">
         <a
