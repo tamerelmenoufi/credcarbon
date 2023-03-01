@@ -25,8 +25,8 @@
 
                     <div class="col-4">
                         <div class="card w-100 d-flex align-items-center justify-content-center" style="background-color:#eee" >
-                            <h4><i class="fa-solid fa-envelope-open-text"></i></h4>
-                            <p>E-mail</p>
+                            <h3><i class="fa-solid fa-envelope-open-text"></i></h3>
+                            <p class="fs-6">E-mail</p>
                         </div>
 
                     </div>
