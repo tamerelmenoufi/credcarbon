@@ -24,8 +24,11 @@
                 <div class="row">
 
                     <div class="col-4 d-flex align-items-center justify-content-center">
-                       <h4><i class="fa-solid fa-envelope-open-text"></i></h4>
-                        E-mail
+                        <div class="card" >
+                            <h4><i class="fa-solid fa-envelope-open-text"></i></h4>
+                            <p>E-mail</p>
+                        </div>
+
                     </div>
 
                 </div>
