@@ -56,7 +56,7 @@
             </li>
         </ul>
 
-
+        <div class="menuAplicativos">
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a
@@ -94,7 +94,7 @@
                 </ul>
             </li>
         </ul>
-
+        </div>
     </div>
   </div>
 </nav>
