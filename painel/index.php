@@ -7,7 +7,7 @@
         exit();
     }
 
-    $app = (($app)?:'site');
+    $app = (($_GET['app'])?:'site');
 
     if($_SESSION['ProjectPainel']){
         $url = "{$app}/home/index.php";
