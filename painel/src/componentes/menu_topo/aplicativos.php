@@ -23,8 +23,8 @@
             <li class="MenuLogin">
                 <div class="row">
 
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                        <div class="card" >
+                    <div class="col-4">
+                        <div class="card w-100 d-flex align-items-center justify-content-center" style="background-color:#eee" >
                             <h4><i class="fa-solid fa-envelope-open-text"></i></h4>
                             <p>E-mail</p>
                         </div>
