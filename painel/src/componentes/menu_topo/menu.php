@@ -67,7 +67,7 @@
                     ria-expanded="false"
                     style="background-color:rgb(255,255,255, 0.6); border-radius:100%; padding:5px;"
                 >
-                  <i class="fa-brands fa-buromobelexperte" style="font-size:35px;"></i>
+                  <i class="fa-brands fa-buromobelexperte" style="font-size:30px;"></i>
                 </a>
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown2">
                     <li class="MenuLogin">
