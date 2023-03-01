@@ -60,7 +60,7 @@
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a
-                    class="nav-link"
+                    class="nav-link d-flex align-items-center justify-content-center"
                     href="#" id="navbarScrollingDropdown2"
                     role="button"
                     data-bs-toggle="dropdown"
