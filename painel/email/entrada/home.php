@@ -106,6 +106,7 @@
          var altura = ( $(".listaEntrada ul").outerHeight() - $(".listaEntrada").outerHeight());
 
         if((nowScrollTop) >= (altura - 10)){
+            cnsole.log(`${nowScrollTop} de ${altura}`)
             Carregando()
             $.ajax({
                 url:"email/entrada/lista.php",
