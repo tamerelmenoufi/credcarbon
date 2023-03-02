@@ -11,22 +11,60 @@
         background-color:#fff;
         float:auto;
     }
+    .relativo{
+        position:relative;
+    }
+    .listaEntrada{
+        position:absolute;
+        left:0;
+        top:0px;
+        bottom:0;
+        right:0;
+        background-color:red;
+        float:auto;
+    }
+    .exibeEmail{
+        position:absolute;
+        left:0;
+        top:0px;
+        bottom:0;
+        right:0;
+        background-color:green;
+        float:auto;
+    }
 </style>
 <div class="pagina">
     <div class="row">
-        <div class="col-4">
-            Lista de entrada
+        <div class="col-4 relativo">
+            <div class="listaEntrada">
+                <?php
+                for($i=0;$i<100;$i++){
+                ?>
+                Lista de entrada<br>
+                <?php
+                }
+                ?>
+            </div>
         </div>
-        <div class="col-8">Exibição dos e-mails</div>
+        <div class="col-8 relativo">
+            <div class="exibeEmail">
+                <?php
+                for($i=0;$i<100;$i++){
+                ?>
+                Exibição dos e-mails<br>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
     </div>
 </div>
 
 <script>
 
-
-
     $(function(){
         Carregando('none')
 
     })
+
 </script>
