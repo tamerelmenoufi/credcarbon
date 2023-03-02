@@ -64,7 +64,7 @@
                                     <div>
                                         <input type="checkbox" />
                                     </div>
-                                    <div>
+                                    <div class="flex-grow-1">
                                         <h5>tecnologia@credcarbonmanaus.com.br</h5>
                                         <span>Agenda das atividades desenvolvidas</span>
                                     </div>
