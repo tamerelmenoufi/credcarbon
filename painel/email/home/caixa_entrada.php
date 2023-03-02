@@ -4,10 +4,10 @@
 <style>
     .pagina{
         position:fixed;
-        left:0;
+        left:10;
         top:60px;
         bottom:0;
-        right:0;
+        right:10;
         background-color:#fff;
         border:solid 5px #333;
     }
