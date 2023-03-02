@@ -150,6 +150,12 @@
 		//  }
 
 	 });
+
+
+     $(document).on('click','.ItemEmail div i', function(){
+        alert('ação aqui');
+     })
+
  });
 
 </script>
