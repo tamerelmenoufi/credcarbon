@@ -47,7 +47,7 @@
                 ?>
             </div>
         </div>
-        <div class="col-8 relativo">
+        <div class="col-8 d-none d-sm-block relativo">
             <div class="exibeEmail">
                 <?php
                 for($i=0;$i<100;$i++){
