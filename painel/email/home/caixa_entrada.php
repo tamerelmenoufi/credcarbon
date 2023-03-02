@@ -9,6 +9,7 @@
         bottom:0;
         right:0;
         background-color:#fff;
+        border:solid 5px #333;
     }
     .relativo{
         position:relative;
