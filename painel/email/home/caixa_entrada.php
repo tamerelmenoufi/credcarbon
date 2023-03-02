@@ -47,7 +47,22 @@
                         <?php
                         for($i=0;$i<100;$i++){
                         ?>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>
+                                    <input type="checkbox" />
+                                </span>
+                                <div>
+                                    <h3>tecnologia@credcarbonmanaus.com.br</h3>
+                                    <p>Agenda de atividade desenvolvidas</p>
+                                </div>
+                                <div>
+                                    <i class="fa fa-user"></i>
+                                </div>
+                            </div>
+
+                        </li>
                         <?php
                         }
                         ?>
