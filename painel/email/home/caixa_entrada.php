@@ -39,7 +39,7 @@
         font-weight:bold;
         color:#a1a1a1;
     }
-    .ItemEmail div p{
+    .ItemEmail div span{
         font-size:12px;
         font-weight:normal;
         color:#333;
@@ -66,7 +66,7 @@
                                 </div>
                                 <div>
                                     <h5>tecnologia@credcarbonmanaus.com.br</h5>
-                                    <p>Agenda de atividade desenvolvidas</p>
+                                    <span>Agenda de atividade desenvolvidas</span>
                                 </div>
                                 <div>
                                     <i class="fa fa-user"></i>
