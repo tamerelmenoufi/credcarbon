@@ -55,28 +55,28 @@
                     <div class="listaEntrada">
 
                         <ul class="list-group list-group-flush">
-                        <?php
-                        for($i=0;$i<100;$i++){
-                        ?>
-                        <li class="list-group-item">
+                            <?php
+                            for($i=0;$i<100;$i++){
+                            ?>
+                            <li class="list-group-item">
 
-                            <div class="d-flex justify-content-between align-items-center ItemEmail">
-                                <div>
-                                    <input type="checkbox" />
+                                <div class="d-flex justify-content-between align-items-center ItemEmail">
+                                    <div>
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div>
+                                        <h5>tecnologia@credcarbonmanaus.com.br</h5>
+                                        <span>Agenda das atividades desenvolvidas</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-user"></i>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h5>tecnologia@credcarbonmanaus.com.br</h5>
-                                    <span>Agenda das atividades desenvolvidas</span>
-                                </div>
-                                <div>
-                                    <i class="fa fa-user"></i>
-                                </div>
-                            </div>
 
-                        </li>
-                        <?php
-                        }
-                        ?>
+                            </li>
+                            <?php
+                            }
+                            ?>
                         </ul>
 
                     </div>
@@ -122,7 +122,7 @@
 
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
-		 var nowScrollTop = $(this).scrollTop();
+		 var nowScrollTop = $(".listaEntrada ul").scrollTop();
          var altura = $(".listaEntrada ul").height();
 
         if(nowScrollTop == altura){
