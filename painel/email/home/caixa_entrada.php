@@ -156,7 +156,7 @@
 	 });
 
 
-     $(document).on('click','.ItemEmail div i', function(){
+     $(document).off('click').on('click','.ItemEmail div i', function(){
         alert('ação aqui');
      })
 
