@@ -15,10 +15,18 @@
         position:relative;
         height:100%;
     }
-    .listaEntrada{
+    .listaEntradaAcoes{
         position:absolute;
         left:0;
         top:0px;
+        height:60px;
+        right:0;
+        background:#ccc;
+    }
+    .listaEntrada{
+        position:absolute;
+        left:0;
+        top:60px;
         bottom:0;
         right:0;
         overflow:auto;
@@ -55,6 +63,9 @@
         <div class="relativo">
             <div class="row relativo">
                 <div class="col-md-4 relativo">
+                    <div class="listaEntradaAcoes">
+                        Ações aqui
+                    </div>
                     <div class="listaEntrada">
                         <ul class="list-group list-group-flush"></ul>
                     </div>
