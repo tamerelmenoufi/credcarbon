@@ -16,7 +16,7 @@
 
 
     $(function(){
-
+        Carregando('none')
 
     })
 </script>
