@@ -123,7 +123,7 @@
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(this).scrollTop();
-         var altura = $(this).height();
+         var altura = $(".listaEntrada ul").height();
 
         if(nowScrollTop == altura){
             console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
