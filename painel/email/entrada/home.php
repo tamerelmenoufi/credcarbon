@@ -21,7 +21,6 @@
         top:0px;
         bottom:0;
         right:0;
-        background-color:red;
         overflow:auto;
     }
     .exibeEmail{
@@ -57,9 +56,7 @@
             <div class="row relativo">
                 <div class="col-4 relativo">
                     <div class="listaEntrada">
-
                         <ul class="list-group list-group-flush"></ul>
-
                     </div>
                 </div>
                 <div class="col-8 relativo">
@@ -82,13 +79,7 @@
             <div class="row relativo">
                 <div class="col relativo">
                     <div class="listaEntrada">
-                        <?php
-                        for($i=0;$i<100;$i++){
-                        ?>
-                        Lista de entrada<br>
-                        <?php
-                        }
-                        ?>
+                        <ul class="list-group list-group-flush"></ul>
                     </div>
                 </div>
             </div>
