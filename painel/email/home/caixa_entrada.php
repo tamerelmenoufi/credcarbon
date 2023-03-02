@@ -52,7 +52,7 @@
         <div class="d-none d-md-block relativo">
             <div class="row relativo">
                 <div class="col-4 relativo">
-                    <div class="listaEntrada" onmousewheel = "rolar()">
+                    <div class="listaEntrada">
 
                         <ul class="list-group list-group-flush">
                         <?php
@@ -123,18 +123,27 @@
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(this).scrollTop();
-		 if(Math.abs(lastScrollTop - nowScrollTop) >= delta){
-		 	if (nowScrollTop > lastScrollTop){
-		 		// ACTION ON
-		 		// SCROLLING DOWN
-                console.log(`DESCE ${nowScrollTop}`)
-		 	} else {
-		 		// ACTION ON
-		 		// SCROLLING UP
-                 console.log(`SOBE ${nowScrollTop}`)
-			}
-		 lastScrollTop = nowScrollTop;
-		 }
+         var altura = $(this).height();
+
+        if(nowScrollTop == altura){
+            console.log(`Já Estou no final da página`);
+        }else{
+            console.log(`Estou fora da área`);
+        }
+
+		//  if(Math.abs(lastScrollTop - nowScrollTop) >= delta){
+		//  	if (nowScrollTop > lastScrollTop){
+		//  		// ACTION ON
+		//  		// SCROLLING DOWN
+        //         console.log(`DESCE ${nowScrollTop}`)
+		//  	} else {
+		//  		// ACTION ON
+		//  		// SCROLLING UP
+        //          console.log(`SOBE ${nowScrollTop}`)
+		// 	}
+		//  lastScrollTop = nowScrollTop;
+		//  }
+
 	 });
  });
 
