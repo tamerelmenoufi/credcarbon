@@ -58,30 +58,7 @@
                 <div class="col-4 relativo">
                     <div class="listaEntrada">
 
-                        <ul class="list-group list-group-flush">
-                            <?php
-                            for($i=0;$i<100;$i++){
-                            ?>
-                            <li class="list-group-item">
-
-                                <div class="d-flex justify-content-between align-items-center ItemEmail">
-                                    <div class="p-2">
-                                        <input type="checkbox" />
-                                    </div>
-                                    <div class="p-2 d-flex flex-column align-items-start flex-grow-1">
-                                        <h5>tecnologia@credcarbonmanaus.com.br</h5>
-                                        <span>Agenda das atividades desenvolvidas</span>
-                                    </div>
-                                    <div class="p-2">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <?php
-                            }
-                            ?>
-                        </ul>
+                        <ul class="list-group list-group-flush"></ul>
 
                     </div>
                 </div>
@@ -121,21 +98,31 @@
 <script>
 
     $(function(){
+
         Carregando('none')
 
+        $.ajax({
+            url:"email/entrada/lista.php",
+            success:function(dados){
+                $(".listaEntrada ul").append(dados);
+            }
+        });
 
-    var RegiNovo = '';
-    for(i=0;i<20;i++){
-    var RegiNovo = RegiNovo + '<li class="list-group-item"><div class="d-flex justify-content-between align-items-center ItemEmail"><div><input type="checkbox" /></div><div><h5>tecnologia@credcarbonmanaus.com.br</h5><span>Novo Agenda das atividades desenvolvidas</span></div><div><i class="fa fa-user"></i></div></div></li>';
-    }
+
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(".listaEntrada").scrollTop();
          var altura = ( $(".listaEntrada ul").outerHeight() - $(".listaEntrada").outerHeight());
 
         if((nowScrollTop) >= (altura - 10)){
-            console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
-            $(".listaEntrada ul").append(RegiNovo);
+            Carregando()
+            $.ajax({
+                url:"email/entrada/lista.php",
+                success:function(dados){
+                    $(".listaEntrada ul").append(dados);
+                }
+            });
+
         }else{
             // console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
         }
