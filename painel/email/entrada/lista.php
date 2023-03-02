@@ -19,7 +19,8 @@ for($i=0;$i<100;$i++){
             <span>Agenda das atividades desenvolvidas</span>
         </div>
         <div class="p-2">
-            <i class="fa fa-user"></i>
+            <i class="fa-solid fa-computer d-none d-md-block"></i>
+            <i class="fa-solid fa-mobile-screen-button d-none d-sm-block"></i>
         </div>
     </div>
 
