@@ -122,7 +122,7 @@
 
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
-		 var nowScrollTop = $(".listaEntrada ul").scrollTop();
+		 var nowScrollTop = $(".listaEntrada").scrollTop();
          var altura = $(".listaEntrada ul").height();
 
         if(nowScrollTop == altura){
