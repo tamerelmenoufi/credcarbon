@@ -33,6 +33,17 @@
         background-color:green;
         overflow:auto;
     }
+
+    .ItemEmail div h5{
+        font-size:12px;
+        font-weight:bold;
+        color:#a1a1a1;
+    }
+    .ItemEmail div p{
+        font-size:10px;
+        font-weight:normal;
+        color:#333;
+    }
 </style>
 <div class="pagina">
 
@@ -49,10 +60,10 @@
                         ?>
                         <li class="list-group-item">
 
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span>
+                            <div class="d-flex justify-content-between align-items-center ItemEmail">
+                                <div>
                                     <input type="checkbox" />
-                                </span>
+                                </div>
                                 <div>
                                     <h5>tecnologia@credcarbonmanaus.com.br</h5>
                                     <p>Agenda de atividade desenvolvidas</p>
