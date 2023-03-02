@@ -35,12 +35,12 @@
     }
 
     .ItemEmail div h5{
-        font-size:12px;
+        font-size:14px;
         font-weight:bold;
         color:#a1a1a1;
     }
     .ItemEmail div p{
-        font-size:10px;
+        font-size:12px;
         font-weight:normal;
         color:#333;
     }
