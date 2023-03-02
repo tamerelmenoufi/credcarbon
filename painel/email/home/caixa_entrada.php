@@ -3,12 +3,13 @@
 ?>
 <style>
     .pagina{
-        position:absolute;
+        position:fixed;
         left:0;
-        top:0;
+        top:60px;
         bottom:0;
         right:0;
         background-color:#fff;
+        float:auto;
     }
 </style>
 <div class="pagina">
