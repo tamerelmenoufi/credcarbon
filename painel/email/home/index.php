@@ -20,10 +20,10 @@
 
     $(function(){
         pags = [
-            ['agenda/componentes/menu_topo/menu.php','paginaHomeTopo'],
-            ['agenda/componentes/menu_lateral/menu.php','paginaHomeLateral'],
-            ['agenda/componentes/menu_lateral_direita/menu.php','paginaHomeLateralDireita'],
-            ['agenda/dashboard/index.php','paginaHome'],
+            ['email/componentes/menu_topo/menu.php','paginaHomeTopo'],
+            ['email/componentes/menu_lateral/menu.php','paginaHomeLateral'],
+            ['email/componentes/menu_lateral_direita/menu.php','paginaHomeLateralDireita'],
+            ['email/dashboard/index.php','paginaHome'],
             ];
 
         for(i=0;i<pags.length;i++){
