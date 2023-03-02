@@ -43,18 +43,15 @@
                 <div class="col-4 relativo">
                     <div class="listaEntrada">
 
-
-                        <div class="card" style="width: 18rem;">
-                            <ul class="list-group list-group-flush">
-                            <?php
-                            for($i=0;$i<100;$i++){
-                            ?>
-                            <li class="list-group-item">A third item</li>
-                            <?php
-                            }
-                            ?>
-                            </ul>
-                        </div>
+                        <ul class="list-group list-group-flush">
+                        <?php
+                        for($i=0;$i<100;$i++){
+                        ?>
+                        <li class="list-group-item">A third item</li>
+                        <?php
+                        }
+                        ?>
+                        </ul>
 
                     </div>
                 </div>
