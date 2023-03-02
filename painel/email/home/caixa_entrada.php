@@ -122,7 +122,7 @@
 
     var RegiNovo = '';
     for(i=0;i<20;i++){
-    var RegiNovo =+ '<li class="list-group-item"><div class="d-flex justify-content-between align-items-center ItemEmail"><div><input type="checkbox" /></div><div><h5>tecnologia@credcarbonmanaus.com.br</h5><span>Novo Agenda das atividades desenvolvidas</span></div><div><i class="fa fa-user"></i></div></div></li>';
+    var RegiNovo = RegiNovo + '<li class="list-group-item"><div class="d-flex justify-content-between align-items-center ItemEmail"><div><input type="checkbox" /></div><div><h5>tecnologia@credcarbonmanaus.com.br</h5><span>Novo Agenda das atividades desenvolvidas</span></div><div><i class="fa fa-user"></i></div></div></li>';
     }
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
