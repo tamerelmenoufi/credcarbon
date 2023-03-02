@@ -120,13 +120,17 @@
         Carregando('none')
 
 
+
+    var RegiNovo = '<li class="list-group-item"><div class="d-flex justify-content-between align-items-center ItemEmail"><div><input type="checkbox" /></div><div><h5>tecnologia@credcarbonmanaus.com.br</h5><span>Novo Agenda das atividades desenvolvidas</span></div><div><i class="fa fa-user"></i></div></div></li>';
+
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(".listaEntrada").scrollTop();
          var altura = ( $(".listaEntrada ul").outerHeight() - $(".listaEntrada").outerHeight());
 
-        if((nowScrollTop) == (altura - 10)){
+        if((nowScrollTop) >= (altura - 10)){
             console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
+            $(".listaEntrada ul").append(RegiNovo);
         }else{
             console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
         }
