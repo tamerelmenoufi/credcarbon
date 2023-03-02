@@ -38,11 +38,15 @@
         font-size:14px;
         font-weight:bold;
         color:#a1a1a1;
+        padding:0;
+        margin:0;
     }
     .ItemEmail div span{
         font-size:12px;
         font-weight:normal;
         color:#333;
+        padding:0;
+        margin:0;
     }
 </style>
 <div class="pagina">
@@ -61,14 +65,14 @@
                             <li class="list-group-item">
 
                                 <div class="d-flex justify-content-between align-items-center ItemEmail">
-                                    <div>
+                                    <div class="p-2">
                                         <input type="checkbox" />
                                     </div>
-                                    <div class="flex-grow-1">
+                                    <div class="p-2 d-flex justify-content-between align-items-center flex-grow-1">
                                         <h5>tecnologia@credcarbonmanaus.com.br</h5>
                                         <span>Agenda das atividades desenvolvidas</span>
                                     </div>
-                                    <div>
+                                    <div class="p-2">
                                         <i class="fa fa-user"></i>
                                     </div>
                                 </div>
