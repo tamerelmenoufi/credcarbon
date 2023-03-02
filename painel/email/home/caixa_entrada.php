@@ -68,7 +68,7 @@
                                     <div class="p-2">
                                         <input type="checkbox" />
                                     </div>
-                                    <div class="p-2 d-flex flex-column justify-content-between align-items-center flex-grow-1">
+                                    <div class="p-2 d-flex flex-column align-items-center flex-grow-1">
                                         <h5>tecnologia@credcarbonmanaus.com.br</h5>
                                         <span>Agenda das atividades desenvolvidas</span>
                                     </div>
