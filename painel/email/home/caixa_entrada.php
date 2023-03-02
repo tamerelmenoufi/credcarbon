@@ -133,7 +133,7 @@
             console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
             $(".listaEntrada ul").append(RegiNovo);
         }else{
-            console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
+            // console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
         }
 
 		//  if(Math.abs(lastScrollTop - nowScrollTop) >= delta){
