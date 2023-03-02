@@ -42,13 +42,20 @@
             <div class="row relativo">
                 <div class="col-4 relativo">
                     <div class="listaEntrada">
-                        <?php
-                        for($i=0;$i<100;$i++){
-                        ?>
-                        Lista de entrada<br>
-                        <?php
-                        }
-                        ?>
+
+
+                        <div class="card" style="width: 18rem;">
+                            <ul class="list-group list-group-flush">
+                            <?php
+                            for($i=0;$i<100;$i++){
+                            ?>
+                            <li class="list-group-item">A third item</li>
+                            <?php
+                            }
+                            ?>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-8 relativo">
