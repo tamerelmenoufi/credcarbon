@@ -52,14 +52,14 @@
 
 
         <!-- Exibe apenas no PC -->
-        <div class="d-none d-md-block relativo">
+        <div class="relativo">
             <div class="row relativo">
-                <div class="col-4 relativo">
+                <div class="col-md-4 relativo">
                     <div class="listaEntrada">
                         <ul class="list-group list-group-flush"></ul>
                     </div>
                 </div>
-                <div class="col-8 relativo">
+                <div class="d-none d-md-block col-md-8 relativo">
                     <div class="exibeEmail">
                         <?php
                         for($i=0;$i<100;$i++){
@@ -74,16 +74,7 @@
         </div>
 
 
-        <!-- Exibe apenas no celular -->
-        <div class="d-block d-sm-none relativo">
-            <div class="row relativo">
-                <div class="col relativo">
-                    <div class="listaEntrada">
-                        <ul class="list-group list-group-flush"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 </div>
 
 <script>
