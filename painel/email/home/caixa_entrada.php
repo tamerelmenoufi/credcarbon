@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-8 relativo">
-                    <div class="exibeEmail___">
+                    <div class="exibeEmail">
                         <?php
                         for($i=0;$i<100;$i++){
                         ?>
@@ -123,7 +123,7 @@
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(".listaEntrada").scrollTop();
-         var altura = $(".listaEntrada ul").outerHeight();
+         var altura = $(".listaEntrada").outerHeight();
 
         if(nowScrollTop == altura){
             console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
