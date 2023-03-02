@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-8 relativo">
-                    <div class="exibeEmail">
+                    <div class="exibeEmail___">
                         <?php
                         for($i=0;$i<100;$i++){
                         ?>
