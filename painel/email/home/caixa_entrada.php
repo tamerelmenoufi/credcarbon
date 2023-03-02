@@ -125,7 +125,7 @@
 		 var nowScrollTop = $(".listaEntrada").scrollTop();
          var altura = ( $(".listaEntrada ul").outerHeight() - $(".listaEntrada").outerHeight());
 
-        if(nowScrollTop == altura){
+        if((nowScrollTop) >= (altura - 10)){
             console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
         }else{
             console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
