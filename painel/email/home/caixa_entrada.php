@@ -67,7 +67,7 @@
 
 
         <!-- Exibe apenas no celular -->
-        <div class="d-none d-sm-block relativo">
+        <div class="d-none d-sm-block d-md-none relativo">
             <div class="row relativo">
                 <div class="col relativo">
                     <div class="listaEntrada">
