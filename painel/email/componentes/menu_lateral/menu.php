@@ -33,7 +33,7 @@
 
     <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="email/home/caixa_entrada.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="email/entrada/home.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-chart-line"></i> Caixa de E-mails
         </a>
       </div>
