@@ -126,9 +126,9 @@
          var altura = $(this).height();
 
         if(nowScrollTop == altura){
-            console.log(`Já Estou no final da página`);
+            console.log(`Já Estou no final da página ${nowScrollTop} de ${altura}`);
         }else{
-            console.log(`Estou fora da área`);
+            console.log(`Estou fora da área ${nowScrollTop} de ${altura}`);
         }
 
 		//  if(Math.abs(lastScrollTop - nowScrollTop) >= delta){
