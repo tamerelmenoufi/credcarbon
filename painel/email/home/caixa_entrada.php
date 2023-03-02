@@ -52,7 +52,7 @@
         <div class="d-none d-md-block relativo">
             <div class="row relativo">
                 <div class="col-4 relativo">
-                    <div class="listaEntrada">
+                    <div class="listaEntrada" onmousewheel = "rolar()">
 
                         <ul class="list-group list-group-flush">
                         <?php
