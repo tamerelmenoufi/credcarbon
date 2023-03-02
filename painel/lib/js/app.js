@@ -9,3 +9,4 @@ function rolar(){
     var atualPosicao = window.scrollY;
     console.log(`${atualPosicao}`)
 }
+
