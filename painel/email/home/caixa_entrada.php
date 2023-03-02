@@ -3,10 +3,15 @@
 ?>
 <style>
     .pagina{
+        position:absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
         background-color:#fff;
     }
 </style>
-<div class="container pagina">
+<div class="pagina">
     <div class="row">
         <div class="col-4">
             Lista de entrada
