@@ -3,6 +3,8 @@ Carregando = (opc = 'flex') => {
     // alert(opc);
 }
 
+ultimaPosicao = 0;
+
 function rolar(){
     var atualPosicao = window.scrollY;
 
