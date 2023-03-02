@@ -66,7 +66,7 @@
                                 </div>
                                 <div>
                                     <h5>tecnologia@credcarbonmanaus.com.br</h5>
-                                    <span>Agenda de atividade desenvolvidas</span>
+                                    <span>Agenda das atividades desenvolvidas</span>
                                 </div>
                                 <div>
                                     <i class="fa fa-user"></i>
