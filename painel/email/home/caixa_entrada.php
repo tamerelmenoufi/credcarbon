@@ -9,7 +9,6 @@
         bottom:0;
         right:0;
         background-color:#fff;
-        float:auto;
     }
     .relativo{
         position:relative;
@@ -21,7 +20,7 @@
         bottom:0;
         right:0;
         background-color:red;
-        float:auto;
+        overflow:auto;
     }
     .exibeEmail{
         position:absolute;
@@ -30,7 +29,7 @@
         bottom:0;
         right:0;
         background-color:green;
-        float:auto;
+        overflow:auto;
     }
 </style>
 <div class="pagina">
