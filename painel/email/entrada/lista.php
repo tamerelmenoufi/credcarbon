@@ -20,7 +20,7 @@ for($i=0;$i<100;$i++){
         </div>
         <div class="p-2">
             <i class="fa-solid fa-computer d-none d-md-block"></i>
-            <i class="fa-solid fa-mobile-screen-button d-none d-sm-block"></i>
+            <i class="fa-solid fa-mobile-screen-button d-block d-sm-none"></i>
         </div>
     </div>
 
