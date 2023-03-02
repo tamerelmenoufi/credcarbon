@@ -38,7 +38,7 @@
     <div class="row relativo">
 
         <!-- Exibe apenas no PC -->
-        <div class="d-none d-sm-block relativo">
+        <div class="d-none d-md-block relativo">
             <div class="col-4 relativo">
                 <div class="listaEntrada">
                     <?php
