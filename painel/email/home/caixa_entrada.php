@@ -34,7 +34,7 @@
     }
 </style>
 <div class="pagina">
-    <div class="row">
+    <div class="row relativo">
         <div class="col-4 relativo">
             <div class="listaEntrada">
                 <?php
