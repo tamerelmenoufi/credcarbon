@@ -67,7 +67,13 @@
 
 
                         <div class="btn-group">
-                            <a href="#" class="btn btn-primary active" aria-current="page">Escrever</a>
+                            <a
+                                class="btn btn-primary"
+                                data-bs-toggle="offcanvas"
+                                href="#offcanvasDireita"
+                                role="button"
+                                aria-controls="offcanvasDireita"
+                            >Escrever</a>
                             <a href="#" class="btn btn-primary">Mover</a>
                             <a href="#" class="btn btn-primary">Excluir</a>
                         </div>
