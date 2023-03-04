@@ -64,7 +64,15 @@
             <div class="row relativo">
                 <div class="col-md-4 relativo">
                     <div class="listaEntradaAcoes">
-                        Ações aqui
+
+
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary active" aria-current="page">Escrever</a>
+                            <a href="#" class="btn btn-primary">Mover</a>
+                            <a href="#" class="btn btn-primary">Excluir</a>
+                        </div>
+
+
                     </div>
                     <div class="listaEntrada">
                         <ul class="list-group list-group-flush"></ul>
