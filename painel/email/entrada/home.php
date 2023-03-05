@@ -80,7 +80,7 @@
                                     class="btn btn-primary"
                                     mover
                                 >Mover</a> -->
-                                <div class="btn-group" role="group">
+                                <div class="btn-group btn-group-sm" role="group">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Mover
                                     </button>
@@ -91,6 +91,7 @@
                                     <li><a class="dropdown-item" href="#">Empresa C</a></li>
                                     </ul>
                                 </div>
+
                                 <a
                                     class="btn btn-primary"
                                     excluir
