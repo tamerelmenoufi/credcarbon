@@ -76,10 +76,21 @@
                                     aria-controls="offcanvasDireita"
                                     escrever
                                 >Escrever</a>
-                                <a
+                                <!-- <a
                                     class="btn btn-primary"
                                     mover
-                                >Mover</a>
+                                >Mover</a> -->
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mover
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Caixa de Entrada</a></li>
+                                    <li><a class="dropdown-item" href="#">Urgentes</a></li>
+                                    <li><a class="dropdown-item" href="#">Empresa A</a></li>
+                                    <li><a class="dropdown-item" href="#">Empresa C</a></li>
+                                    </ul>
+                                </div>
                                 <a
                                     class="btn btn-primary"
                                     excluir
