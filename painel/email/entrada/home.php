@@ -112,7 +112,6 @@
                             </div> -->
 
                             <div class="input-group input-group-sm mb-3 ms-3 me-3">
-                                <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
                                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
                             </div>
