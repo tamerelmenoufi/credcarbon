@@ -66,7 +66,7 @@
                     <div class="listaEntradaAcoes">
 
 
-                        <div class="btn-group">
+                        <div class="btn-group btn-group-sm">
                             <a
                                 class="btn btn-primary"
                                 data-bs-toggle="offcanvas"
