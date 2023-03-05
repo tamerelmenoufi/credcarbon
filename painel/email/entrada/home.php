@@ -73,20 +73,15 @@
                                 href="#offcanvasDireita"
                                 role="button"
                                 aria-controls="offcanvasDireita"
+                                escrever
                             >Escrever</a>
                             <a
                                 class="btn btn-primary"
-                                data-bs-toggle="offcanvas"
-                                href="#offcanvasDireita"
-                                role="button"
-                                aria-controls="offcanvasDireita"
+                                mover
                             >Mover</a>
                             <a
                                 class="btn btn-primary"
-                                data-bs-toggle="offcanvas"
-                                href="#offcanvasDireita"
-                                role="button"
-                                aria-controls="offcanvasDireita"
+                                excluir
                             >Excluir</a>
                         </div>
 
@@ -167,6 +162,28 @@
         alert('ação aqui');
      })
 
+     $("a[escrever]").click(function(){
+        $.alert('Agora vai ser escrito um e-mail');
+     });
+
+     $("a[mover]").click(function(){
+        $.alert('Para qual pasta deseja mover este e-mail?');
+     });
+
+     $("a[excluir]").click(function(){
+        $.confirm([
+            content:"Deseja realmente excluir o e-mail?",
+            title:"Alerta",
+            buttons:{
+                'SIM':function(){
+                    $.alert('E-mail apagado!')
+                },
+                'NÃO':function(){
+
+                }
+            }
+        ]);
+     });
  });
 
 </script>
