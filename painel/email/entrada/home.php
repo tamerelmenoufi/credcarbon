@@ -111,7 +111,7 @@
                                 <button class="btn btn-sm btn-outline-secondary" type="button" id="button-addon2">Button</button>
                             </div> -->
 
-                            <div class="input-group input-group-sm mb-3 ms-3 me-1 mt-1">
+                            <div class="input-group input-group-sm mb-3 ms-3 me-1 mt-2">
                                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
                             </div>
