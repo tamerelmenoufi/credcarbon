@@ -171,7 +171,7 @@
      });
 
      $("a[excluir]").click(function(){
-        $.confirm([
+        $.confirm({
             content:"Deseja realmente excluir o e-mail?",
             title:"Alerta",
             buttons:{
@@ -182,7 +182,7 @@
 
                 }
             }
-        ]);
+        });
      });
  });
 
