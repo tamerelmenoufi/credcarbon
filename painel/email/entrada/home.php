@@ -66,7 +66,7 @@
                     <div class="listaEntradaAcoes d-flex flex-column">
 
 
-                        <div>
+                        <div style="background-color:#6c757d">
                             <div class="btn-group btn-group-sm">
                                 <a
                                     class="btn btn-secondary"
