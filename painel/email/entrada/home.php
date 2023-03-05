@@ -21,6 +21,7 @@
         top:0px;
         height:60px;
         right:0;
+        background-color:#fff;
     }
     .listaEntrada{
         position:absolute;
