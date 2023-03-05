@@ -19,14 +19,14 @@
         position:absolute;
         left:0;
         top:0px;
-        height:70px;
+        height:75px;
         right:0;
         background-color:#eee;
     }
     .listaEntrada{
         position:absolute;
         left:0;
-        top:70px;
+        top:75px;
         bottom:0;
         right:0;
         overflow:auto;
@@ -111,7 +111,7 @@
                                 <button class="btn btn-sm btn-outline-secondary" type="button" id="button-addon2">Button</button>
                             </div> -->
 
-                            <div class="input-group input-group-sm mb-3 ms-3 me-3 mt-1">
+                            <div class="input-group input-group-sm mb-3 ms-3 me-1 mt-1">
                                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
                             </div>
