@@ -86,23 +86,12 @@
                         </div>
 
 
-                        <div class="btn-group btn-group-sm">
-                            <a
-                                class="btn btn-primary"
-                                data-bs-toggle="offcanvas"
-                                href="#offcanvasDireita"
-                                role="button"
-                                aria-controls="offcanvasDireita"
-                                escrever
-                            >Escrever</a>
-                            <a
-                                class="btn btn-primary"
-                                mover
-                            >Mover</a>
-                            <a
-                                class="btn btn-primary"
-                                excluir
-                            >Excluir</a>
+                        <div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <!-- <label class="form-check-label" for="exampleCheck1">Marcar Todos</label> -->
+                            </div>
+
                         </div>
 
                     </div>
