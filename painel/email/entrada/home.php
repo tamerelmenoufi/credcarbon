@@ -89,7 +89,7 @@
 
                         <div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" style="margin-left:10px;">
                                 <!-- <label class="form-check-label" for="exampleCheck1">Marcar Todos</label> -->
                             </div>
                         </div>
