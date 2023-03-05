@@ -21,7 +21,6 @@
         top:0px;
         height:60px;
         right:0;
-        background:#0d6efd;
     }
     .listaEntrada{
         position:absolute;
@@ -66,25 +65,26 @@
                     <div class="listaEntradaAcoes d-flex flex-column">
 
 
-                        <div class="btn-group btn-group-sm">
-                            <a
-                                class="btn btn-primary"
-                                data-bs-toggle="offcanvas"
-                                href="#offcanvasDireita"
-                                role="button"
-                                aria-controls="offcanvasDireita"
-                                escrever
-                            >Escrever</a>
-                            <a
-                                class="btn btn-primary"
-                                mover
-                            >Mover</a>
-                            <a
-                                class="btn btn-primary"
-                                excluir
-                            >Excluir</a>
+                        <div style="background-color:#0d6efd">
+                            <div class="btn-group btn-group-sm">
+                                <a
+                                    class="btn btn-primary"
+                                    data-bs-toggle="offcanvas"
+                                    href="#offcanvasDireita"
+                                    role="button"
+                                    aria-controls="offcanvasDireita"
+                                    escrever
+                                >Escrever</a>
+                                <a
+                                    class="btn btn-primary"
+                                    mover
+                                >Mover</a>
+                                <a
+                                    class="btn btn-primary"
+                                    excluir
+                                >Excluir</a>
+                            </div>
                         </div>
-
 
                         <div>
                             <div class="mb-3 form-check">
