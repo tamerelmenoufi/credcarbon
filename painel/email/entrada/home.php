@@ -63,7 +63,7 @@
         <div class="relativo">
             <div class="row relativo">
                 <div class="col-md-4 relativo">
-                    <div class="listaEntradaAcoes">
+                    <div class="listaEntradaAcoes d-flex flex-column">
 
 
                         <div class="btn-group btn-group-sm">
@@ -85,6 +85,25 @@
                             >Excluir</a>
                         </div>
 
+
+                        <div class="btn-group btn-group-sm">
+                            <a
+                                class="btn btn-primary"
+                                data-bs-toggle="offcanvas"
+                                href="#offcanvasDireita"
+                                role="button"
+                                aria-controls="offcanvasDireita"
+                                escrever
+                            >Escrever</a>
+                            <a
+                                class="btn btn-primary"
+                                mover
+                            >Mover</a>
+                            <a
+                                class="btn btn-primary"
+                                excluir
+                            >Excluir</a>
+                        </div>
 
                     </div>
                     <div class="listaEntrada">
