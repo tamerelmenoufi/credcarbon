@@ -74,8 +74,20 @@
                                 role="button"
                                 aria-controls="offcanvasDireita"
                             >Escrever</a>
-                            <a href="#" class="btn btn-primary">Mover</a>
-                            <a href="#" class="btn btn-primary">Excluir</a>
+                            <a
+                                class="btn btn-primary"
+                                data-bs-toggle="offcanvas"
+                                href="#offcanvasDireita"
+                                role="button"
+                                aria-controls="offcanvasDireita"
+                            >Mover</a>
+                            <a
+                                class="btn btn-primary"
+                                data-bs-toggle="offcanvas"
+                                href="#offcanvasDireita"
+                                role="button"
+                                aria-controls="offcanvasDireita"
+                            >Excluir</a>
                         </div>
 
 
