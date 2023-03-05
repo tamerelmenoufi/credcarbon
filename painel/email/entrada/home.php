@@ -66,10 +66,10 @@
                     <div class="listaEntradaAcoes d-flex flex-column">
 
 
-                        <div style="background-color:#0d6efd">
+                        <div>
                             <div class="btn-group btn-group-sm">
                                 <a
-                                    class="btn btn-primary"
+                                    class="btn btn-secondary"
                                     data-bs-toggle="offcanvas"
                                     href="#offcanvasDireita"
                                     role="button"
@@ -81,7 +81,7 @@
                                     mover
                                 >Mover</a> -->
                                 <div class="btn-group btn-group-sm" role="group">
-                                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Mover
                                     </button>
                                     <ul class="dropdown-menu">
@@ -93,7 +93,7 @@
                                 </div>
 
                                 <a
-                                    class="btn btn-primary"
+                                    class="btn btn-secondary"
                                     excluir
                                 >Excluir</a>
                             </div>
