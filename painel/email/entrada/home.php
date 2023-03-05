@@ -104,6 +104,13 @@
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" style="margin-left:0px; margin-top:7px;">
                                 <!-- <label class="form-check-label" for="exampleCheck1">Marcar Todos</label> -->
                             </div>
+
+
+                            <div class="input-group input-group-sm mb-3">
+                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                            </div>
+
                         </div>
 
                     </div>
