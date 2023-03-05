@@ -19,14 +19,14 @@
         position:absolute;
         left:0;
         top:0px;
-        height:75px;
+        height:80px;
         right:0;
         background-color:#eee;
     }
     .listaEntrada{
         position:absolute;
         left:0;
-        top:75px;
+        top:80px;
         bottom:0;
         right:0;
         overflow:auto;
