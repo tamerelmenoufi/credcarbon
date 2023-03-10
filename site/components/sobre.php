@@ -23,8 +23,8 @@
             <div class="about-img">
               <!-- <img src="<?=$localPainel?>site/volume/paginas_topicos/<?=$d->imagem?>" class="img-fluid" style="border-radius:20px;"> -->
 
-              <video  class="img-fluid" style="border-radius:20px;" controls>
-                <source src="<?=$localPainel?>site/assets/videos/institucional.mp4" type="video/mp4">
+              <video  class="img-fluid" style="border-radius:20px; height:300px;" controls>
+                <source src="<?=$localSite?>assets/videos/institucional.mp4" type="video/mp4">
                 <!-- <source src="movie.ogg" type="video/ogg"> -->
                 Your browser does not support the video tag.
               </video>
