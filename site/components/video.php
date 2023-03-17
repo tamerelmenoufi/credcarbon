@@ -9,7 +9,7 @@
           <div class="col-lg-6">
             <div class="content d-flex flex-column justify-content-center h-100">
 
-            <div style="padding:40px">
+            <div style="padding:150px">
 
 
             </div>
