@@ -19,7 +19,8 @@
               </ul>-->
 
               Esperamos que você aproveite ao máximo essa experiência única e que possam contribuir para enriquecer ainda mais as discussões que serão realizadas ao longo do evento.
-              <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              
+              <a href="#" class="read-more align-self-start" style="margin-top:5pz"><span>Confira </span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
