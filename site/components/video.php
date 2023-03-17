@@ -8,16 +8,17 @@
           </div>
           <div class="col-lg-6">
             <div class="content d-flex flex-column justify-content-center h-100">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <h3>Sejam muito bem-vindos ao evento Fórum Amazônia e Fórum Carbono Neutro! </h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+              É uma grande satisfação recebê-los aqui, onde juntos teremos a oportunidade de debater e refletir sobre os desafios e soluções para questões tão importantes para o futuro do planeta.
               </p>
-              <ul>
+              <!--<ul>
                 <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                 <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                 <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
+              </ul>-->
+
+              Esperamos que você aproveite ao máximo essa experiência única e que possam contribuir para enriquecer ainda mais as discussões que serão realizadas ao longo do evento.
               <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
