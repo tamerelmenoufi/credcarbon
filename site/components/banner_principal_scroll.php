@@ -20,6 +20,7 @@ if($_GET['cod']){
     $active = false;
     }
     ?>
+
     <!-- <div class="carousel-item">
       <div class="container">
         <div class="row justify-content-center gy-6">
