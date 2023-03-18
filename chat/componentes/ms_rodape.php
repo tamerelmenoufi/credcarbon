@@ -11,45 +11,5 @@
     ///////////////
     $(function(){
 
-        $(".acao").click(function(){
-
-            AppPedido = window.localStorage.getItem('AppPedido');
-            AppCliente = window.localStorage.getItem('AppCliente');
-            componente = $(this).attr("componente");
-            local = $(this).attr("local");
-
-            if(
-                (!AppCliente || AppCliente === null || AppCliente === undefined) /*&&
-                local == "src/cliente/home.php"*/
-            ){
-
-                Carregando();
-                $.ajax({
-                    url:"componentes/ms_popup_100.php",
-                    type:"POST",
-                    data:{
-                        local:"src/cliente/cadastro.php",
-                    },
-                    success:function(dados){
-                        $(".ms_corpo").append(dados);
-                    }
-                });
-
-            }else{
-                Carregando();
-                $.ajax({
-                    url:"componentes/"+componente+".php",
-                    type:"POST",
-                    data:{
-                        local,
-                    },
-                    success:function(dados){
-                        $(".ms_corpo").append(dados);
-                    }
-                });
-            }
-
-        });
-
     })
 </script>
