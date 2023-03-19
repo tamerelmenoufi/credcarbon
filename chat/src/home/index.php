@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 ?><style>
     .bg_home{
