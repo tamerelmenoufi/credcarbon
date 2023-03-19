@@ -25,7 +25,7 @@
                     usuario: '<?=$_SESSION['AppUsuario']?>',
                 },
                 success:function(dados){
-                    $(".ms_corpo").html(dados);
+                    // $(".ms_corpo").html(dados);
                 }
             });
     })
