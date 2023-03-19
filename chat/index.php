@@ -38,7 +38,6 @@
         });
     })
 
-
     //Configurações globais
 
     //Jconfirm
