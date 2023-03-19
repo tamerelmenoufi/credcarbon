@@ -1,12 +1,6 @@
 <?php
-    include("../../lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
-    $mesas = [];
-    $query = "SELECT * FROM mesas WHERE situacao = '1' AND deletado != '1'";
-    $result = mysqli_query($con, $query);
-    while($m = mysqli_fetch_object($result)){
-        $mesas[] = $m->mesa;
-    }
 ?>
 <style>
     #videoCaptura{
