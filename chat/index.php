@@ -31,7 +31,7 @@
         $.ajax({
             url: "src/home/index.php",
             success: function (dados) {
-                // $(".ms_corpo").html(dados);
+                $(".ms_corpo").html(dados);
             }
         });
     })

@@ -1,7 +1,6 @@
 ﻿<?php
     include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
-?>
-<style>
+?><style>
     .bg_home{
         position:absolute;
         width:100%;
