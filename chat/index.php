@@ -21,7 +21,7 @@
 
 <div class="ms_corpo"></div>
 
-
+<?php include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/footer.php"); ?>
 
 <script src="<?= "js/app.js?" . date("YmdHis"); ?>"></script>
 <script src="<?= "js/wow.js"; ?>"></script>
@@ -53,6 +53,5 @@
 
 </script>
 <form></form>
-<?php include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/footer.php"); ?>
 </body>
 </html>
