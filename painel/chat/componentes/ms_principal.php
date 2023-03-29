@@ -54,7 +54,7 @@
 
     .pagina{
         position:fixed;
-        top:185px;
+        top:60px;
         bottom:65px;
         width:100%;
         background:#502314; /*f5ebdc*/
