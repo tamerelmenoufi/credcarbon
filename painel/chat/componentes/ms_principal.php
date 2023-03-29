@@ -124,18 +124,7 @@
 
 <!-- Informativo de pedidos ativos -->
 
-<div class="MensagemAddProduto2 animate__animated animate__shakeY">
-    Produto Adicionado!
-    <span><i class="fa-solid fa-caret-down"></i></span>
-</div>
-
-<!-- Informativo de pedidos ativos -->
-
-<!-- <div class="alerta"></div> Liberar este comentário para os alertas de pagamentos pendentes (PIX) -->
-
 <div class="topo"></div>
-
-<div class="categorias_home"></div>
 
 <div class="pagina">
     <button
@@ -147,9 +136,8 @@
         Abrir uma página de teste
     </button>
 </div>
-<div class="rodape"></div>
 
-<div class="ListaLojas"></div>
+<div class="rodape"></div>
 
 <script>
     $(function(){
