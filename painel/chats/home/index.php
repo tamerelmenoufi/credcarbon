@@ -20,10 +20,10 @@
 
     $(function(){
         pags = [
-            ['email/componentes/menu_topo/menu.php','paginaHomeTopo'],
-            ['email/componentes/menu_lateral/menu.php','paginaHomeLateral'],
-            ['email/componentes/menu_lateral_direita/menu.php','paginaHomeLateralDireita'],
-            ['email/dashboard/index.php','paginaHome'],
+            ['chats/componentes/menu_topo/menu.php','paginaHomeTopo'],
+            ['chats/componentes/menu_lateral/menu.php','paginaHomeLateral'],
+            ['chats/componentes/menu_lateral_direita/menu.php','paginaHomeLateralDireita'],
+            ['chats/dashboard/index.php','paginaHome'],
             ];
 
         for(i=0;i<pags.length;i++){

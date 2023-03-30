@@ -75,7 +75,7 @@
                                     role="button"
                                     aria-controls="offcanvasDireita"
                                     escrever
-                                >Escrever</a>
+                                >chat</a>
                                 <!-- <a
                                     class="btn btn-primary"
                                     mover
@@ -148,7 +148,7 @@
         Carregando('none')
 
         $.ajax({
-            url:"email/entrada/lista.php",
+            url:"chats/entrada/lista.php",
             success:function(dados){
                 $(".listaEntrada ul").append(dados);
             }
@@ -164,7 +164,7 @@
             console.log(`${nowScrollTop} de ${altura}`)
             Carregando()
             $.ajax({
-                url:"email/entrada/lista.php",
+                url:"chats/entrada/lista.php",
                 success:function(dados){
                     $(".listaEntrada ul").append(dados);
                 }

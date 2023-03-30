@@ -21,11 +21,11 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <h4 style="color:#057a34">CreadCarbon - Painel do E-mail</h4>
+    <h4 style="color:#057a34">CreadCarbon - Painel do Bate Papo (Chat)</h4>
 
     <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="email/dashboard/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="chats/dashboard/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-chart-line"></i> Dashboard
         </a>
       </div>
@@ -33,8 +33,8 @@
 
     <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="email/entrada/home.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-chart-line"></i> Caixa de E-mails
+        <a url="chats/entrada/home.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="fa-solid fa-chart-line"></i> Meus contatos
         </a>
       </div>
     </div>
