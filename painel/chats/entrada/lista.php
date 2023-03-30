@@ -16,7 +16,7 @@ for($i=0;$i<100;$i++){
         </div>
         <div class="p-2 d-flex flex-column align-items-start flex-grow-1">
             <h5>Joaquim de Oliveira Mello</h5>
-            <!-- <span>Agenda das atividades desenvolvidas</span> -->
+            <span>jom@credcarbonmanaus.com.br</span>
         </div>
         <div class="p-2">
             <i class="fa-solid fa-computer d-none d-md-block"></i>
