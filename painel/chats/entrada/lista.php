@@ -15,8 +15,8 @@ for($i=0;$i<100;$i++){
             <img src="https://bootdey.com/img/Content/avatar/avatar4.png" style="width:60px; height:60px; border-radius:100%" >
         </div>
         <div class="p-2 d-flex flex-column align-items-start flex-grow-1">
-            <h5>tecnologia@credcarbonmanaus.com.br</h5>
-            <span>Agenda das atividades desenvolvidas</span>
+            <h5>Joaquim de Oliveira Mello</h5>
+            <!-- <span>Agenda das atividades desenvolvidas</span> -->
         </div>
         <div class="p-2">
             <i class="fa-solid fa-computer d-none d-md-block"></i>
