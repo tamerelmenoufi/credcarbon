@@ -100,10 +100,9 @@
                         </div>
 
                         <div class="d-flex flex-row">
-                            <div class="mb-3 form-check">
+                            <!-- <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" style="margin-left:0px; margin-top:15px;">
-                                <!-- <label class="form-check-label" for="exampleCheck1">Marcar Todos</label> -->
-                            </div>
+                            </div> -->
 
 
                             <!-- <div class="input-group input-group-sm ms-3 me-3">
