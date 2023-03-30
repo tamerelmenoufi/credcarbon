@@ -11,11 +11,9 @@ for($i=0;$i<100;$i++){
 <li class="list-group-item">
 
     <div class="d-flex justify-content-between align-items-center ItemEmail">
-        <!-- <div class="p-2">
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            </div>
-        </div> -->
+        <div class="p-2">
+            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" style="width:60px; height:60px; border-radius:100%" >
+        </div>
         <div class="p-2 d-flex flex-column align-items-start flex-grow-1">
             <h5>tecnologia@credcarbonmanaus.com.br</h5>
             <span>Agenda das atividades desenvolvidas</span>
