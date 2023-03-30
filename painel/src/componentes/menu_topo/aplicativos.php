@@ -60,6 +60,13 @@
                         </div>
                     </div>
 
+                    <div class="col-4">
+                        <div app="chats" class="card w-100 d-flex align-items-center justify-content-center appIcons" >
+                            <h3><i class="fa-regular fa-comments"></i></h3>
+                            <span>Chat</span>
+                        </div>
+                    </div>
+
                 </div>
             </li>
         </ul>
