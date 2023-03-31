@@ -59,7 +59,7 @@
         height:80px;
         bottom:0;
         right:0;
-        background-color:yellow;
+        background-color:#f5f1ee;
         overflow:none;
         border-left:3px solid #e4e4e4;
     }
