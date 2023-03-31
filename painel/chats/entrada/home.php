@@ -45,7 +45,7 @@
     .exibeEmail{
         position:absolute;
         left:0;
-        top:60px;
+        top:40px;
         bottom:80px;
         right:0;
         background-color:green;
