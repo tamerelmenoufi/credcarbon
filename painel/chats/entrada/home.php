@@ -40,6 +40,7 @@
         right:0;
         background-color:#eeeeee;
         overflow:none;
+        border-left:1px solid #e4e4e4;
     }
     .exibeEmail{
         position:absolute;
@@ -49,6 +50,7 @@
         right:0;
         background-color:green;
         overflow:auto;
+        border-left:1px solid #e4e4e4;
     }
 
     .exibeEmailRodape{
@@ -59,6 +61,7 @@
         right:0;
         background-color:yellow;
         overflow:none;
+        border-left:1px solid #e4e4e4;
     }
 
     .ItemEmail div h5{
