@@ -158,10 +158,10 @@
                     </div>
                     <div class="exibeEmailRodape">
                         <div class="d-flex justify-content-between align-items-center">
-                            <i class="fa-regular fa-face-smile"></i>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <i class="fa-solid fa-microphone"></i>
-                            <i class="fa-regular fa-paper-plane"></i>
+                            <i class="fa-regular fa-face-smile p-3"></i>
+                            <input type="text" class="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <i class="fa-solid fa-microphone p-3"></i>
+                            <i class="fa-regular fa-paper-plane p-3"></i>
                         </div>
                     </div>
                 </div>
