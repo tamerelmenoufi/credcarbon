@@ -86,7 +86,7 @@
                     <div class="listaEntradaAcoes d-flex flex-column">
 
 
-                        <div style="background-color:#6c757d">
+                        <div style="background-color:#6c757d; height:40px;">
                             <div class="btn-group btn-group-sm">
                                 <a
                                     class="btn btn-secondary"
@@ -119,7 +119,7 @@
                             </div>
                         </div>
 
-                        <div class="d-flex flex-row">
+                        <div class="d-flex flex-row" style="height:40px; background-color:#fff">
                             <!-- <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" style="margin-left:0px; margin-top:15px;">
                             </div> -->
