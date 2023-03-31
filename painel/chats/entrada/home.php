@@ -36,9 +36,9 @@
         position:absolute;
         left:0;
         top:0px;
-        height:60px;
+        height:40px;
         right:0;
-        background-color:yellow;
+        background-color:#eeeeee;
         overflow:none;
     }
     .exibeEmail{
@@ -86,7 +86,7 @@
                     <div class="listaEntradaAcoes d-flex flex-column">
 
 
-                        <div style="background-color:#6c757d; height:40px;">
+                        <div style="background-color:#eeeeee; height:40px;">
                             <div class="btn-group btn-group-sm">
                                 <a
                                     class="btn btn-secondary"
