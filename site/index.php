@@ -87,7 +87,7 @@
         'noticias',
         //'galeria',
         //'banner_depoimentos',
-        
+
 
         // 'pagina_interna',
         // 'pagina_interna2',
@@ -111,6 +111,8 @@
     foreach($componentes as $i => $v){
         include("components/{$v}.php");
     }
+
+
 
 ?>
 </main><!-- End #main -->
@@ -140,7 +142,16 @@
   <script src="assets/js/js.js"></script>
 
 
-
+  <script>
+    $(function(){
+      $.ajax({
+        url:"assets/lib/log_acessos.php",
+        success:function(dados){
+          //Retorno da função
+        }
+      });
+    })
+  </script>
 
 
 </body>
