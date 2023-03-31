@@ -48,7 +48,7 @@
         top:40px;
         bottom:80px;
         right:0;
-        background-color:green;
+        background-color:#f7f7f7;
         overflow:auto;
         border-left:3px solid #e4e4e4;
     }
