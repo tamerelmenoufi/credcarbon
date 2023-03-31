@@ -31,14 +31,34 @@
         right:0;
         overflow:auto;
     }
-    .exibeEmail{
+
+    .exibeEmailTopo{
         position:absolute;
         left:0;
         top:0px;
-        bottom:0;
+        height:60px;
+        right:0;
+        background-color:yellow;
+        overflow:none;
+    }
+    .exibeEmail{
+        position:absolute;
+        left:0;
+        top:60px;
+        bottom:80px;
         right:0;
         background-color:green;
         overflow:auto;
+    }
+
+    .exibeEmailRodape{
+        position:absolute;
+        left:0;
+        height:80px;
+        bottom:0;
+        right:0;
+        background-color:yellow;
+        overflow:none;
     }
 
     .ItemEmail div h5{
@@ -123,6 +143,7 @@
                     </div>
                 </div>
                 <div class="d-none d-md-block col-md-8 relativo">
+                    <div class="exibeEmailTopo"></div>
                     <div class="exibeEmail">
                         <?php
                         for($i=0;$i<100;$i++){
@@ -132,6 +153,7 @@
                         }
                         ?>
                     </div>
+                    <div class="exibeEmailRodape"></div>
                 </div>
             </div>
         </div>
