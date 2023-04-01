@@ -51,7 +51,7 @@
         background-color:#f7f7f7;
         overflow:auto;
         border-left:3px solid #e4e4e4;
-        padding:20px;
+        padding:10px;
     }
 
     .exibeEmailRodape{
@@ -152,7 +152,7 @@
                         <?php
                         for($i=0;$i<100;$i++){
                         ?>
-                        <div class="d-flex flex-row card" style="background-color:#ffffff">
+                        <div class="d-flex card m-1 p-2" style="background-color:#ffffff; border:0">
                             <div>Texto da mensagem enviada</div>
                             <div class="text-end">12:17</div>
                         </div>
