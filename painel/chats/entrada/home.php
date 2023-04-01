@@ -154,7 +154,7 @@
                         ?>
                         <div class="d-flex card m-1 p-2" style="background-color:#ffffff; border:0">
                             <div>Texto da mensagem enviada</div>
-                            <div class="text-end">12:17</div>
+                            <div class="text-end" style="color:#b6a29a; font-size:10px;">12:17</div>
                         </div>
                         <?php
                         }
