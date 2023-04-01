@@ -153,8 +153,8 @@
                         for($i=0;$i<100;$i++){
                         ?>
                         <span class="d-flex flex-row m-1 p-2" style="background-color:#ffffff; border:0; border-radius:20px; width:auto;">
-                            <div>Texto da mensagem enviada</div>
-                            <div class="text-end" style="color:#b6a29a; font-size:10px;">12:17</div>
+                            <span>Texto da mensagem enviada</span>
+                            <span class="text-end" style="color:#b6a29a; font-size:10px;">12:17</span>
                         </span>
                         <?php
                         }
