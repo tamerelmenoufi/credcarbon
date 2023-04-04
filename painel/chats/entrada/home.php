@@ -199,9 +199,9 @@
         });
 
 
-        pos = $(".exibeEmail").offsetHeight();
+        pos = $(".exibeEmail").height();
         console.log(pos);
-        $(".exibeEmail").outerHeight(pos);
+        // $(".exibeEmail").outerHeight(pos);
         // $(function scroll() {
         //     window.scrollTo(0, pos);
         // })
