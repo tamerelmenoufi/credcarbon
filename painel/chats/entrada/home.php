@@ -201,7 +201,7 @@
 
         altura = $(".exibeEmail").prop("scrollHeight");
         div = $(".exibeEmail").height();
-        $(".exibeEmail").scrollTo(0, (altura + div));
+        $(".exibeEmail").scrollTop(altura + div);
 
 
         console.log(pos);
