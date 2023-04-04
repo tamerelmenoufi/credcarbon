@@ -199,8 +199,11 @@
         });
 
 
-        pos = $(".exibeEmail")..outerHeight();
-        $(".exibeEmail").scrollTop(pos);
+        pos = $(".exibeEmail").outerHeight();
+        // $(".exibeEmail").scrollTop(pos);
+        $(function scroll() {
+            window.scrollTo(0, pos);
+        })
 
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
