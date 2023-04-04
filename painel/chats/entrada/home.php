@@ -200,7 +200,7 @@
 
 
         pos = $(".exibeEmail").outerHeight();
-        // $(".exibeEmail").scrollTop(pos);
+        $(".exibeEmail").scrollTop(pos);
         $(function scroll() {
             window.scrollTo(0, pos);
         })
