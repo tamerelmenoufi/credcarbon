@@ -199,6 +199,9 @@
         });
 
 
+        pos = $(".exibeEmail")..outerHeight();
+        $(".exibeEmail").scrollTop(pos);
+
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
 		 var nowScrollTop = $(".listaEntrada").scrollTop();
