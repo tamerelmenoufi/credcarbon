@@ -160,7 +160,7 @@
                             }
                         ?>
                         <div class="d-flex flex-row<?=$reverse?>">
-                        <div class="d-inline-flex flex-column m-1 p-2" style="max-width:60%; background-color:<?=$cor?>; border:0; border-radius:20px;">
+                        <div class="d-inline-flex flex-column m-1 p-2" style="max-width:60%; background-color:<?=$cor?>; border:0; border-radius:10px;">
                             <div class="text-start" style="border:solid 0px red;">Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada </div>
                             <div class="text-end" style="color:#b6a29a; font-size:10px; border:solid 0px black;">12:17</div>
                         </div>
