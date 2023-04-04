@@ -187,7 +187,16 @@
 
         $("#chatMensagem").keypress(function(e){
             val = $(this).val();
+            layout = '<div class="d-flex flex-row<?=$reverse?>">'+
+                     '<div class="d-inline-flex flex-column m-1 p-2" style="max-width:60%; background-color:<?=$cor?>; border:0; border-radius:10px;">'+
+                     '<div class="text-start" style="border:solid 0px red;">'+val+'</div>' +
+                     '<div class="text-end" style="color:#b6a29a; font-size:10px; border:solid 0px black;">12:17</div>' +
+                     '</div>' +
+                     '</div>';
+
             if(e.which == 13 && val) {
+                $(".exibeEmail").append(layout);
+                $("#chatMensagem").val('');
                 console.log('precionei o teclado!' + val)
             }
         });
