@@ -148,27 +148,7 @@
                 </div>
                 <div class="d-none d-md-block col-md-8 relativo">
                     <div class="exibeEmailTopo"></div>
-                    <div class="exibeEmail">
-                        <?php
-                        for($i=0;$i<100;$i++){
-                            if($i%2 == 0){
-                                $reverse = '-reverse';
-                                $cor = '#dcf8c6';
-                            }else{
-                                $reverse = false;
-                                $cor = '#ffffff';
-                            }
-                        ?>
-                        <div class="d-flex flex-row<?=$reverse?>">
-                        <div class="d-inline-flex flex-column m-1 p-2" style="max-width:60%; background-color:<?=$cor?>; border:0; border-radius:10px;">
-                            <div class="text-start" style="border:solid 0px red;">Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada Texto da mensagem enviada </div>
-                            <div class="text-end" style="color:#b6a29a; font-size:10px; border:solid 0px black;">12:17</div>
-                        </div>
-                        </div>
-                       <?php
-                        }
-                        ?>
-                    </div>
+                    <div class="exibeEmail"></div>
                     <div class="exibeEmailRodape">
                         <div class="d-flex justify-content-between align-items-center m-3">
                             <i class="fa-regular fa-face-smile p-3"></i>
@@ -198,17 +178,13 @@
             }
         });
 
+        $.ajax({
+            url:"chats/entrada/mensagens.php",
+            success:function(dados){
+                $(".exibeEmail").append(dados);
+            }
+        });
 
-        altura = $(".exibeEmail").prop("scrollHeight");
-        div = $(".exibeEmail").height();
-        $(".exibeEmail").scrollTop(altura + div);
-
-
-        console.log(pos);
-        // $(".exibeEmail").outerHeight(pos);
-        // $(function scroll() {
-        //     window.scrollTo(0, pos);
-        // })
 
 	 var lastScrollTop = 0, delta = 5;
 	 $(".listaEntrada").scroll(function(){
