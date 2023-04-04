@@ -199,7 +199,11 @@
         });
 
 
-        pos = $(".exibeEmail").prop("scrollHeight");
+        altura = $(".exibeEmail").prop("scrollHeight");
+        div = $(".exibeEmail").height();
+        $(".exibeEmail").scrollTo(0, (altura + div));
+
+
         console.log(pos);
         // $(".exibeEmail").outerHeight(pos);
         // $(function scroll() {
