@@ -152,7 +152,7 @@
                     <div class="exibeEmailRodape">
                         <div class="d-flex justify-content-between align-items-center m-3">
                             <i class="fa-regular fa-face-smile p-3"></i>
-                            <input type="text" class="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="text" class="form-control p-3" id="chatMensagem" aria-describedby="chatMensagem">
                             <i class="fa-solid fa-microphone p-3"></i>
                             <i class="fa-regular fa-paper-plane p-3"></i>
                         </div>
@@ -183,6 +183,10 @@
             success:function(dados){
                 $(".exibeEmail").append(dados);
             }
+        });
+
+        $("#chatMensagem").keypress(function(){
+            console.log('precionei o teclado!')
         });
 
 
