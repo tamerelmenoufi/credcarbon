@@ -185,8 +185,11 @@
             }
         });
 
-        $("#chatMensagem").keypress(function(){
-            console.log('precionei o teclado!')
+        $("#chatMensagem").keypress(function(e){
+            val = $(this).val();
+            if(e.which == 13 || val) {
+                console.log('precionei o teclado!' + val)
+            }
         });
 
 
