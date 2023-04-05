@@ -202,9 +202,31 @@
                 div = $(".exibeEmail").height();
                 $(".exibeEmail").scrollTop(altura + div);
 
+                $.ajax({
+                    url:"chats/entrada/send.php",
+                    type:"POST",
+                    data:{
+                        msg:val,
+                    },
+                    success:function(dados){
+
+                    }
+                });
+
+
                 // console.log('precionei o teclado!' + val)
             }
         });
+
+        verificarMensagem = setInterval(() => {
+            $.ajax({
+                url:"chats/entrada/read.php",
+                dataType:"JSON",
+                success:function(dados){
+                    console.log(dados.mensagem);
+                }
+            });
+        }, 1000);
 
 
 	 var lastScrollTop = 0, delta = 5;
