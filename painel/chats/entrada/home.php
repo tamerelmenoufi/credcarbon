@@ -197,7 +197,12 @@
             if(e.which == 13 && val) {
                 $(".exibeEmail").append(layout);
                 $("#chatMensagem").val('');
-                console.log('precionei o teclado!' + val)
+
+                altura = $(".exibeEmail").prop("scrollHeight");
+                div = $(".exibeEmail").height();
+                $(".exibeEmail").scrollTop(altura + div);
+
+                // console.log('precionei o teclado!' + val)
             }
         });
 
