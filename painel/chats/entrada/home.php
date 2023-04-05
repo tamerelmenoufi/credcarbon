@@ -223,6 +223,22 @@
                 url:"chats/entrada/read.php",
                 dataType:"JSON",
                 success:function(dados){
+
+
+                    layout = '<div class="d-flex flex-row">'+
+                     '<div class="d-inline-flex flex-column m-1 p-2" style="max-width:60%; background-color:#ffffff; border:0; border-radius:10px;">'+
+                     '<div class="text-start" style="border:solid 0px red;">'+dados.mensagem+'</div>' +
+                     '<div class="text-end" style="color:#b6a29a; font-size:10px; border:solid 0px black;">12:17</div>' +
+                     '</div>' +
+                     '</div>';
+
+                    $(".exibeEmail").append(layout);
+
+                    altura = $(".exibeEmail").prop("scrollHeight");
+                    div = $(".exibeEmail").height();
+                    $(".exibeEmail").scrollTop(altura + div);
+
+
                     console.log(dados);
                 }
             });
