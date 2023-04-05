@@ -2,7 +2,7 @@
         include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/includes.php");
 
         $dados = [
-            'mensagem' => 'Resposta de: '.utf8_decode($_POST['msg']),
+            'mensagem' => 'Resposta de: '.utf8_encode($_POST['msg']),
         ];
 
         $dados = json_encode($dados);
