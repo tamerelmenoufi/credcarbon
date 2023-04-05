@@ -221,7 +221,7 @@
         verificarMensagem = setInterval(() => {
             $.ajax({
                 url:"chats/entrada/read.php",
-                dataType:"JSON",
+                typeData:"JSON",
                 success:function(dados){
                     console.log(dados);
                 }
