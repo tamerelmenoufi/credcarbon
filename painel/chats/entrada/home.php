@@ -223,7 +223,7 @@
                 url:"chats/entrada/read.php",
                 dataType:"JSON",
                 success:function(dados){
-                    console.log(dados.mensagem);
+                    console.log(dados);
                 }
             });
         }, 1000);
