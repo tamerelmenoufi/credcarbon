@@ -21,11 +21,11 @@
       background-position:center center;
       background-size:cover;
       background-repeat:no-repeat;
-      -webkit-filter: blur(15px);
+      /* -webkit-filter: blur(15px);
       -moz-filter: blur(15px);
       -o-filter: blur(15px);
       -ms-filter: blur(15px);
-      filter: blur(15px);
+      filter: blur(15px); */
     }
 
     .imagemEvento{
@@ -38,7 +38,7 @@
       -moz-filter: blur(0px);
       -o-filter: blur(0px);
       -ms-filter: blur(0px);
-      filter:none;
+      filter: blur(0px);
     }
 
   </style>
