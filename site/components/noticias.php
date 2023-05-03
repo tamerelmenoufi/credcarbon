@@ -38,7 +38,7 @@
       -moz-filter: blur(0px);
       -o-filter: blur(0px);
       -ms-filter: blur(0px);
-      filter: blur(0px);
+      filter:none;
     }
 
   </style>
