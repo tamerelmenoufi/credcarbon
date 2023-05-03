@@ -34,6 +34,7 @@
       background-position:center center;
       background-size:contain;
       background-repeat:no-repeat;
+      z-index:1;
     }
 
   </style>
@@ -59,7 +60,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
               <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="post-img imagemEventoFundo">
-                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="post-img imagemEvento">
+                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="imagemEvento">
                   <!-- <img src="<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""> -->
                 </div>
               </div>
