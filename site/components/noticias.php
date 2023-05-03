@@ -15,6 +15,27 @@
     font-size: 17px;
     }
 
+    .imagemEventoFundo{
+      margin-top:10px;
+      height:250px;
+      background-position:center center;
+      background-size:cover;
+      background-repeat:no-repeat;
+      -webkit-filter: blur(15px);
+      -moz-filter: blur(15px);
+      -o-filter: blur(15px);
+      -ms-filter: blur(15px);
+      filter: blur(15px);
+    }
+
+    .imagemEvento{
+      width:100%;
+      height:250px;
+      background-position:center center;
+      background-size:contain;
+      background-repeat:no-repeat;
+    }
+
   </style>
     <section id="noticias"  style="padding:0px" class="recent-blog-posts">
 
@@ -37,8 +58,10 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
-              <div style="margin-top:10px; height:250px; background-position:center center; background-size:contain; background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>); background-repeat:no-repeat;" class="post-img">
-                <!-- <img src="<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""> -->
+              <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="post-img imagemEventoFundo">
+                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="post-img imagemEvento">
+                  <!-- <img src="<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""> -->
+                </div>
               </div>
               <!-- <div class="meta">
                 <span class="post-date">Tue, December 12</span>
