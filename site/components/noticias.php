@@ -34,7 +34,11 @@
       background-position:center center;
       background-size:contain;
       background-repeat:no-repeat;
-      z-index:1;
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+      filter: blur(0px);
     }
 
   </style>
