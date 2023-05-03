@@ -14,10 +14,17 @@
     border-radius: 25px 2px 25px;
     font-size: 17px;
     }
-
-    .imagemEventoFundo{
-      margin-top:10px;
+    .evento{
+      position:relative;
       height:250px;
+      margin-top:10px;
+    }
+    .imagemEventoFundo{
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      top:0;
       background-position:center center;
       background-size:cover;
       background-repeat:no-repeat;
@@ -26,19 +33,19 @@
       -o-filter: blur(15px);
       -ms-filter: blur(15px);
       filter: blur(15px);
+      z-index:1;
     }
 
     .imagemEvento{
-      width:100%;
-      height:250px;
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      top:0;
       background-position:center center;
       background-size:contain;
       background-repeat:no-repeat;
-      -webkit-filter: blur(0px)!important;
-      -moz-filter: blur(0px)!important;
-      -o-filter: blur(0px)!important;
-      -ms-filter: blur(0px)!important;
-      filter: blur(0px)!important;
+      z-index:2;
     }
 
   </style>
@@ -63,10 +70,9 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
-              <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="post-img imagemEventoFundo">
-                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="imagemEvento">
-                  <!-- <img src="<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""> -->
-                </div>
+              <div class="post-img evento">
+                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="imagemEventoFundo"></div>
+                <div style="background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>);" class="imagemEvento"></div>
               </div>
               <!-- <div class="meta">
                 <span class="post-date">Tue, December 12</span>
