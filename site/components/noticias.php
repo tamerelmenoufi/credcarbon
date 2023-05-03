@@ -37,7 +37,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
-              <div style="margin-top:10px; height:250px; background-position:center center; background-size:content; background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>); background-repeat:no-repeat;" class="post-img">
+              <div style="margin-top:10px; height:250px; background-position:center center; background-size:contain; background-image:url(<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>); background-repeat:no-repeat;" class="post-img">
                 <!-- <img src="<?=$localPainel?>site/volume/noticias/<?=$d->imagem?>" class="img-fluid" alt=""> -->
               </div>
               <!-- <div class="meta">
